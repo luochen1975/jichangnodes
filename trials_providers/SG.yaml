@@ -3,9 +3,9 @@
 proxies:
 - {name: 🇸🇬 新加坡核心节点-01 - 快云加速, server: aa.cs.retardfindercoinbsc.com, port: 17869, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
 - {name: 🇸🇬 新加坡核心节点-02 - 快云加速, server: aa.cs.retardfindercoinbsc.com, port: 29760, type: ss, cipher: aes-256-gcm, password: a7e466f1-52a0-4d9c-944d-2cf76422dc40, udp: true}
-- &id001 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: b405e588-5c30-44b9-a47a-3e9a15b6341d, udp: true}
-- &id002 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: b405e588-5c30-44b9-a47a-3e9a15b6341d, udp: true}
-- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: b405e588-5c30-44b9-a47a-3e9a15b6341d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id001 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 953838ba-d92f-4c13-a78b-d613ce4a22c8, udp: true}
+- &id002 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 953838ba-d92f-4c13-a78b-d613ce4a22c8, udp: true}
+- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 953838ba-d92f-4c13-a78b-d613ce4a22c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id006 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 69bf84d0-37e0-4923-b920-9a3d3c8b9792, udp: true}
 - &id007 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 69bf84d0-37e0-4923-b920-9a3d3c8b9792, udp: true}
 - &id008 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连一元公益机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 69bf84d0-37e0-4923-b920-9a3d3c8b9792, udp: true}
@@ -19,7 +19,7 @@ proxies:
 - *id001
 - *id002
 - *id003
-- {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 95d6d996-907c-37d0-bb35-e5f8c35e34b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id012 {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 0f8237b2-c78a-3f90-ac3e-c56b66d136d5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id004
 - *id005
 - *id001
@@ -33,9 +33,13 @@ proxies:
 - *id011
 - *id004
 - *id005
-- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 7e6755e1-a015-4f05-89bc-bc9004227fa4, udp: true}
-- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 7e6755e1-a015-4f05-89bc-bc9004227fa4, udp: true}
-- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 7e6755e1-a015-4f05-89bc-bc9004227fa4, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 44053244-15ce-4c19-b67c-6c131f4617f3, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 44053244-15ce-4c19-b67c-6c131f4617f3, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 44053244-15ce-4c19-b67c-6c131f4617f3, udp: true}
+- *id001
+- *id002
+- *id003
+- *id012
 - {name: 🇸🇬标准|新加坡-01 - 美乐云, server: mlc.cac.cab, port: 51004, type: trojan, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, sni: sg.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬标准|新加坡-02 - 美乐云, server: mlc.cac.cab, port: 51004, type: trojan, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, sni: sg.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬标准|新加坡-03 - 美乐云, server: mlc.cac.cab, port: 51113, type: ss, cipher: chacha20-ietf-poly1305, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, udp: true}
