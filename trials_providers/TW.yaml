@@ -22,9 +22,11 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 4511b89c-cc92-4dba-9f5e-2d01558dde3d, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 4511b89c-cc92-4dba-9f5e-2d01558dde3d, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 4511b89c-cc92-4dba-9f5e-2d01558dde3d, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 7891d0bb-793b-40b5-bf07-16ccd281a3d9, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 7891d0bb-793b-40b5-bf07-16ccd281a3d9, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 7891d0bb-793b-40b5-bf07-16ccd281a3d9, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id007
 - *id008
 - *id009
@@ -41,8 +43,3 @@ proxies:
 - *id001
 - *id002
 - *id013
-- {name: 🇹🇼标准|台湾-01 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼标准|台湾-02 - 美乐云, server: mlc.cac.cab, port: 51003, type: trojan, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, sni: tw.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼标准|台湾-03 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, udp: true}
-- {name: 🇹🇼标准|台湾-04 - 美乐云, server: mlc.cac.cab, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, udp: true}
-- {name: 🇹🇼IPLC高级|台湾X3 - 美乐云, server: mlc.cac.cab, port: 52112, type: ss, cipher: chacha20-ietf-poly1305, password: 81a05051-e2b1-4dd1-af61-a0c4090b462d, udp: true}
