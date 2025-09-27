@@ -12,12 +12,14 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
@@ -31,27 +33,42 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
-  - 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场
-  - 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场
-  - 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场
-  - 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场
-  - 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场
-  - 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场
-  - ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场
-  - ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场
-  - 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场
-  - 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场
-  - 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场
+  - 🇭🇰 ss(广移)香港1 - 雷达
+  - 🇭🇰 ss(广移)香港2 - 雷达
+  - 🇹🇼 ss(广移)台湾1 - 雷达
+  - 🇹🇼 ss(广移)台湾2 - 雷达
+  - 🇹🇼 ss(广移)台湾2-1 - 雷达
+  - 🇹🇼 ss(广移)台湾2-2 - 雷达
+  - 🇸🇬 ss(广移)新加坡 1 - 雷达
+  - 🇸🇬 ss(广移)新加坡 2 - 雷达
+  - 🇯🇵 ss(广移)日本1 - 雷达
+  - 🇯🇵 ss(广移)日本2 - 雷达
+  - 🇯🇵 ss(广移)日本4 - 雷达
+  - 🇯🇵 ss(广移)日本3 - 雷达
+  - 🇺🇸 ss(广移)美国1 - 雷达
+  - 🇺🇸 ss(广移)美国2 - 雷达
+  - 🇺🇸 ss(广移)美国2-1 - 雷达
+  - 🇺🇸 ss(广移)美国2-2 - 雷达
+  - ℹ️ 无法连接请到官网导入订阅更新 - 雷达
+  - ℹ️ 试用1小时 请到官网新购套餐 - 雷达
+  - 🇰🇷 ss(广移)韩国1 - 雷达
+  - 🇰🇷 ss(广移)韩国2 - 雷达
+  - 🇲🇾 ss(广移)马来西亚1 - 雷达
+  - 🇲🇾 ss(广移)马来西亚2 - 雷达
+  - 🇮🇱 ss(广移)以色列1 - 雷达
+  - 🇮🇱 ss(广移)以色列2 - 雷达
+  - 🇮🇳 ss(广移)印度1 - 雷达
+  - 🇮🇳 ss(广移)印度2 - 雷达
+  - 🇹🇷 ss(广移)土耳其1 - 雷达
+  - 🇹🇷 ss(广移)土耳其2 - 雷达
+  - 🇮🇸 ss(广移)冰岛1 - 雷达
+  - 🇮🇸 ss(广移)冰岛2 - 雷达
+  - 🇧🇷 ss(广移) 巴西1 - 雷达
+  - 🇧🇷 ss(广移)巴西2 - 雷达
+  - 🇲🇽 ss(广移)墨西哥1 - 雷达
+  - 🇲🇽 ss(广移)墨西哥2 - 雷达
+  - 🇹🇭 ss(广移)泰国1 - 雷达
+  - 🇹🇭 ss(广移)泰国2 - 雷达
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -72,20 +89,24 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
@@ -103,100 +124,142 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
-- name: 🇨🇳 ‍中国
+  - 🇭🇰 ss(广移)香港1 - 雷达
+  - 🇭🇰 ss(广移)香港2 - 雷达
+- name: 🇹🇼 ‍台湾
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
-  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
-  - 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场
-- name: 🇸🇬 ‍新加坡
+  - 🇹🇼 ss(广移)台湾1 - 雷达
+  - 🇹🇼 ss(广移)台湾2 - 雷达
+  - 🇹🇼 ss(广移)台湾2-1 - 雷达
+  - 🇹🇼 ss(广移)台湾2-2 - 雷达
+- name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id004
-  - 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场
-  - 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场
-  - 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场
-- name: 🇯🇵 ‍日本
+  - 🇭🇰 ss(广移)香港1 - 雷达
+  - 🇭🇰 ss(广移)香港2 - 雷达
+  - 🇹🇼 ss(广移)台湾1 - 雷达
+  - 🇹🇼 ss(广移)台湾2 - 雷达
+  - 🇹🇼 ss(广移)台湾2-1 - 雷达
+  - 🇹🇼 ss(广移)台湾2-2 - 雷达
+- name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id005
-  - 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场
-  - 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场
-  - 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场
+  - 🇸🇬 ss(广移)新加坡 1 - 雷达
+  - 🇸🇬 ss(广移)新加坡 2 - 雷达
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 ss(广移)日本1 - 雷达
+  - 🇯🇵 ss(广移)日本2 - 雷达
+  - 🇯🇵 ss(广移)日本4 - 雷达
+  - 🇯🇵 ss(广移)日本3 - 雷达
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id006
-  - 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场
-  - 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场
+  proxies: &id007
+  - 🇺🇸 ss(广移)美国1 - 雷达
+  - 🇺🇸 ss(广移)美国2 - 雷达
+  - 🇺🇸 ss(广移)美国2-1 - 雷达
+  - 🇺🇸 ss(广移)美国2-2 - 雷达
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id007
-  - ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场
-  - ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场
-  - 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场
-  - 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场
-  - 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场
+  proxies: &id008
+  - ℹ️ 无法连接请到官网导入订阅更新 - 雷达
+  - ℹ️ 试用1小时 请到官网新购套餐 - 雷达
+  - 🇰🇷 ss(广移)韩国1 - 雷达
+  - 🇰🇷 ss(广移)韩国2 - 雷达
+  - 🇲🇾 ss(广移)马来西亚1 - 雷达
+  - 🇲🇾 ss(广移)马来西亚2 - 雷达
+  - 🇮🇱 ss(广移)以色列1 - 雷达
+  - 🇮🇱 ss(广移)以色列2 - 雷达
+  - 🇮🇳 ss(广移)印度1 - 雷达
+  - 🇮🇳 ss(广移)印度2 - 雷达
+  - 🇹🇷 ss(广移)土耳其1 - 雷达
+  - 🇹🇷 ss(广移)土耳其2 - 雷达
+  - 🇮🇸 ss(广移)冰岛1 - 雷达
+  - 🇮🇸 ss(广移)冰岛2 - 雷达
+  - 🇧🇷 ss(广移) 巴西1 - 雷达
+  - 🇧🇷 ss(广移)巴西2 - 雷达
+  - 🇲🇽 ss(广移)墨西哥1 - 雷达
+  - 🇲🇽 ss(广移)墨西哥2 - 雷达
+  - 🇹🇭 ss(广移)泰国1 - 雷达
+  - 🇹🇭 ss(广移)泰国2 - 雷达
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇨🇳 ‍中国
+- name: 👆🏻🇹🇼 ‍台湾
   type: select
   proxies: *id003
-- name: 👆🏻🇸🇬 ‍新加坡
+- name: 👆🏻🇨🇳 ‍中国
   type: select
   proxies: *id004
-- name: 👆🏻🇯🇵 ‍日本
+- name: 👆🏻🇸🇬 ‍新加坡
   type: select
   proxies: *id005
-- name: 👆🏻🇺🇸 ‍美国
+- name: 👆🏻🇯🇵 ‍日本
   type: select
   proxies: *id006
-- name: 👆🏻🎏 ‍其他
+- name: 👆🏻🇺🇸 ‍美国
   type: select
   proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
-- {name: ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35660, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22257, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35659, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35661, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35662, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22258, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35666, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22255, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35664, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35665, type: vmess, uuid: 59c9e4b2-2d55-4ec8-a1d9-a00a2929042a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 无法连接请到官网导入订阅更新 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: ℹ️ 试用1小时 请到官网新购套餐 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇭🇰 ss(广移)香港1 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇭🇰 ss(广移)香港2 - 雷达, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: ldu.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇼 ss(广移)台湾1 - 雷达, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2 - 雷达, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-1 - 雷达, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇼 ss(广移)台湾2-2 - 雷达, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇰🇷 ss(广移)韩国1 - 雷达, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇰🇷 ss(广移)韩国2 - 雷达, server: ldu.izenny.com, port: 41431, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚1 - 雷达, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇲🇾 ss(广移)马来西亚2 - 雷达, server: ldu.izenny.com, port: 13828, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇱 ss(广移)以色列1 - 雷达, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇱 ss(广移)以色列2 - 雷达, server: ldu.izenny.com, port: 18140, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇳 ss(广移)印度1 - 雷达, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇳 ss(广移)印度2 - 雷达, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其1 - 雷达, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇷 ss(广移)土耳其2 - 雷达, server: ldu.izenny.com, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛1 - 雷达, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇮🇸 ss(广移)冰岛2 - 雷达, server: ldu.izenny.com, port: 18244, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇧🇷 ss(广移) 巴西1 - 雷达, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇧🇷 ss(广移)巴西2 - 雷达, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥1 - 雷达, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇲🇽 ss(广移)墨西哥2 - 雷达, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇭 ss(广移)泰国1 - 雷达, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
+- {name: 🇹🇭 ss(广移)泰国2 - 雷达, server: ldu.izenny.com, port: 39037, type: ss, cipher: chacha20-ietf-poly1305, password: 676c1551-b43e-490f-877f-4e35cee2be87, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
