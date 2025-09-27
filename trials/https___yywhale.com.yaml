@@ -12,10 +12,10 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
+  - 🇨🇳 ‍中国
   - 🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇺🇸 ‍美国
   - DIRECT
   - REJECT
@@ -25,9 +25,11 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇹🇼 台湾中华电信-100Mbps - 西米露云
-  - 🇸🇬 新加坡-1Gbps - 西米露云
-  - 🇺🇸 美国-1Gbps - 西米露云
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇺🇸 美国高速节点1 - 新云游
+  - 🇨🇳 中国联通节点1 - 新云游
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -48,19 +50,19 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -75,34 +77,41 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇹🇼 台湾中华电信-100Mbps - 西米露云
-- name: 🇸🇬 ‍新加坡
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
+- name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇸🇬 新加坡-1Gbps - 西米露云
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇨🇳 中国联通节点1 - 新云游
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
   proxies: &id004
-  - 🇺🇸 美国-1Gbps - 西米露云
+  - 🇺🇸 美国高速节点1 - 新云游
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
   proxies: *id002
-- name: 👆🏻🇸🇬 ‍新加坡
+- name: 👆🏻🇨🇳 ‍中国
   type: select
   proxies: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
   proxies: *id004
 proxies:
-- {name: 🇺🇸 美国-1Gbps - 西米露云, server: v-us-2.camael.top, port: 23432, type: ss, cipher: chacha20-ietf-poly1305, password: 8bdb55ad-127b-4508-b26e-3bd6c6e8e0aa, udp: true}
-- {name: 🇸🇬 新加坡-1Gbps - 西米露云, server: v-sg.camael.top, port: 9527, type: vmess, uuid: 8bdb55ad-127b-4508-b26e-3bd6c6e8e0aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾中华电信-100Mbps - 西米露云, server: v-tw.camael.top, port: 24920, type: vmess, uuid: 8bdb55ad-127b-4508-b26e-3bd6c6e8e0aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 3a80233e-1876-40ea-908b-ca02675a9901, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 3a80233e-1876-40ea-908b-ca02675a9901, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 3a80233e-1876-40ea-908b-ca02675a9901, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 3a80233e-1876-40ea-908b-ca02675a9901, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 3a80233e-1876-40ea-908b-ca02675a9901, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
