@@ -83,8 +83,8 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: 🇯🇵 JP01 12小时试用线路 满意在订购 - 火箭, server: qqb12.198139.xyz, port: 46887, type: ss, cipher: aes-128-gcm, password: 2b0f3c82-f184-45cb-b816-2e6e30e96261, udp: true}
-- {name: 🇭🇰 HK02 12小时联通试用线路 满意在订购 - 火箭, server: qqb12.198139.xyz, port: 64088, type: ss, cipher: aes-128-gcm, password: 2b0f3c82-f184-45cb-b816-2e6e30e96261, udp: true}
+- {name: 🇯🇵 JP01 12小时试用线路 满意在订购 - 火箭, server: qqb12.198139.xyz, port: 46887, type: ss, cipher: aes-128-gcm, password: 6c397782-c77d-4de4-9def-4d9783b8467e, udp: true}
+- {name: 🇭🇰 HK02 12小时联通试用线路 满意在订购 - 火箭, server: qqb12.198139.xyz, port: 64088, type: ss, cipher: aes-128-gcm, password: 6c397782-c77d-4de4-9def-4d9783b8467e, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
