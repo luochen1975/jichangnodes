@@ -83,8 +83,8 @@ proxy-groups:
   type: select
   proxies: *id003
 proxies:
-- {name: 🇭🇰香港 - 白闪网, server: 183.240.245.218, port: 12210, type: ss, cipher: aes-128-gcm, password: f62c4623-dfc9-4189-8f80-e629831f9607, udp: true}
-- {name: 🇺🇸美国 - 白闪网, server: 183.240.245.218, port: 22000, type: ss, cipher: aes-128-gcm, password: f62c4623-dfc9-4189-8f80-e629831f9607, udp: true}
+- {name: 🇭🇰香港 - 白闪网, server: 183.240.245.218, port: 12210, type: ss, cipher: aes-128-gcm, password: 3f761c35-1c4e-4ae4-9313-5a08c1200f46, udp: true}
+- {name: 🇺🇸美国 - 白闪网, server: 183.240.245.218, port: 22000, type: ss, cipher: aes-128-gcm, password: 3f761c35-1c4e-4ae4-9313-5a08c1200f46, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
