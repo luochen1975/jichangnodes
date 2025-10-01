@@ -1,21 +1,27 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国rn1-快速 - Wink, server: us-rn1.xaa.app, port: 443, type: trojan, password: f612478d-0b07-4884-b960-caa498e8c00e, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国rn2-快速 - Wink, server: us-rn2.xaa.app, port: 443, type: trojan, password: f612478d-0b07-4884-b960-caa498e8c00e, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国rn3-高速 - Wink, server: us-rn3.xaa.app, port: 443, type: trojan, password: f612478d-0b07-4884-b960-caa498e8c00e, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn1-快速 - Wink, server: us-rn1.xaa.app, port: 443, type: trojan, password: 193b7f6a-94f7-4498-91ca-be85edce82c1, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn2-快速 - Wink, server: us-rn2.xaa.app, port: 443, type: trojan, password: 193b7f6a-94f7-4498-91ca-be85edce82c1, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn3-高速 - Wink, server: us-rn3.xaa.app, port: 443, type: trojan, password: 193b7f6a-94f7-4498-91ca-be85edce82c1, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22257, type: vmess, uuid: 8af9174c-5606-4644-8791-2d68d1154bff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35659, type: vmess, uuid: 8af9174c-5606-4644-8791-2d68d1154bff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22255, type: vmess, uuid: 8af9174c-5606-4644-8791-2d68d1154bff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35664, type: vmess, uuid: 8af9174c-5606-4644-8791-2d68d1154bff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: ccb68ee8-e293-47c5-b0ce-e80b089b8159, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: ccb68ee8-e293-47c5-b0ce-e80b089b8159, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: ccb68ee8-e293-47c5-b0ce-e80b089b8159, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 1a9ecbff-93be-4ca9-a34f-1b58f53228ba, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 9576c30e-beba-49e2-a102-a26373d400e0, udp: true}
+- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 9576c30e-beba-49e2-a102-a26373d400e0, udp: true}
+- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 9576c30e-beba-49e2-a102-a26373d400e0, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 0261c656-976d-4114-b70d-7ab3f180119b, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co, server: yh.paint-buster.com, port: 18814, type: vmess, uuid: 6af1a90f-de20-33a0-ba05-b243fda72a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co, server: yh.paint-buster.com, port: 18830, type: vmess, uuid: 6af1a90f-de20-33a0-ba05-b243fda72a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yh.paint-buster.com, port: 18837, type: vmess, uuid: 6af1a90f-de20-33a0-ba05-b243fda72a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yh.paint-buster.com}}, udp: true}
-- {name: 🇺🇸美国 - 白闪网, server: 183.240.245.218, port: 22000, type: vmess, uuid: 86ecb942-0252-4128-8bdf-3a317587f857, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸 美国02 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸 美国03 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸 美国04 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸 美国05 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸 美国06 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: 279bc478-6cbe-43da-a303-2ea27e73ef45, udp: true}
+- {name: 🇺🇸美国 - 白闪网, server: 183.240.245.218, port: 22000, type: vmess, uuid: 8a47e488-43bb-46eb-ae21-59201ab2cc37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 1ccd18a7-78e4-4fbd-888c-50eafa6be99e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 1ccd18a7-78e4-4fbd-888c-50eafa6be99e, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 1ccd18a7-78e4-4fbd-888c-50eafa6be99e, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
