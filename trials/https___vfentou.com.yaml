@@ -11,20 +11,6 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -33,14 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 香港-高速节点 - TOP加速
-  - 🇹🇼 台湾-高速节点 - TOP加速
-  - 🇸🇬 新加坡-高速节点 - TOP加速
-  - 🇯🇵 日本-高速节点 - TOP加速
-  - 🇺🇸 美国-高速节点 - TOP加速
-  - ℹ️ 永久购买网址：topjiasu.cc - TOP加速
-  - 🇰🇷 韩国-高速节点 - TOP加速
-  - 🇬🇧 英国-高速节点 - TOP加速
+  - ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple
+  - ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -60,28 +40,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -90,88 +54,9 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港-高速节点 - TOP加速
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾-高速节点 - TOP加速
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港-高速节点 - TOP加速
-  - 🇹🇼 台湾-高速节点 - TOP加速
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡-高速节点 - TOP加速
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本-高速节点 - TOP加速
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国-高速节点 - TOP加速
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id008
-  - ℹ️ 永久购买网址：topjiasu.cc - TOP加速
-  - 🇰🇷 韩国-高速节点 - TOP加速
-  - 🇬🇧 英国-高速节点 - TOP加速
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id008
 proxies:
-- {name: ℹ️ 永久购买网址：topjiasu.cc - TOP加速, server: link.topsubcname.top, port: 20915, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇭🇰 香港-高速节点 - TOP加速, server: link.topsubcname.top, port: 20915, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇯🇵 日本-高速节点 - TOP加速, server: link.topsubcname.top, port: 41733, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇺🇸 美国-高速节点 - TOP加速, server: link.topsubcname.top, port: 28756, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇹🇼 台湾-高速节点 - TOP加速, server: link.topsubcname.top, port: 63091, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇰🇷 韩国-高速节点 - TOP加速, server: link.topsubcname.top, port: 49936, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇸🇬 新加坡-高速节点 - TOP加速, server: link.topsubcname.top, port: 16200, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
-- {name: 🇬🇧 英国-高速节点 - TOP加速, server: link.topsubcname.top, port: 36184, type: ss, cipher: aes-256-gcm, password: 2ae0ad87-80a5-4982-b096-956a9c815f61, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 1936ceb8-3038-37d9-9017-0241b7c4f04a, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 1936ceb8-3038-37d9-9017-0241b7c4f04a, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
