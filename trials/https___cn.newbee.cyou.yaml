@@ -11,16 +11,50 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - All
+  proxies: &id001
+  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
+  - 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场
+  - 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场
+  - 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场
+  - 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场
+  - 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场
+  - 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场
+  - ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场
+  - ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场
+  - 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场
+  - 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场
+  - 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -37,12 +71,24 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -51,16 +97,106 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxy-providers:
-  All:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___linlujs.cloud/All.yaml
-    interval: 180
-    path: trials_providers/https___linlujs.cloud/All.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场
+  - 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场
+  - 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场
+  - 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场
+  - 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场
+  - 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场
+  - 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id006
+  - 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场
+  - 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id007
+  - ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场
+  - ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场
+  - 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场
+  - 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场
+  - 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id003
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id004
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id005
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id006
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id007
+proxies:
+- {name: ℹ️ 国内直连官网：https://cn4.newbee888.cc - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 备用官网：https://cn5.newbee888.cc - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35660, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 (1.5x)IEPL专线 美国原生1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22257, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 (1.5x)IEPL专线 美国原生2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35659, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 (1.5x)IEPL专线 新加坡1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 (1.5x)IEPL专线 新加坡2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22252, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 (1.5x)IEPL专线 新加坡3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35661, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 (2x)IEPL专线 日本1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 (2x)IEPL专线 日本2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22253, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 (2x)IEPL专线 日本3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35662, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇦🇺 (1.5x)IEPL专线 澳大利亚1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22258, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇦🇺 (1.5x)IEPL专线 澳大利亚2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35666, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 (1.5x)IEPL专线 美国1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22255, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 (1.5x)IEPL专线 美国2 - NewBee国际机场, server: gzdx.newbee8.me, port: 35664, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 (1.5x)IEPL专线 印度1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 (1.5x)IEPL专线 印度2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22256, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 (1.5x)IEPL专线 印度3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35665, type: vmess, uuid: 66ef74a7-e794-4be6-b051-14b7bc1386e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
