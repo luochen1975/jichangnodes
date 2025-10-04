@@ -11,6 +11,12 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -19,8 +25,12 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple
-  - ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple
+  - 🇸🇬 新加坡-ss2 - Wink
+  - 🇸🇬 新加坡-ss3 - Wink
+  - 🇯🇵 日本-自用 - Wink
+  - 🇺🇸 美国rn1-快速 - Wink
+  - 🇺🇸 美国rn2-快速 - Wink
+  - 🇺🇸 美国rn3-高速 - Wink
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -45,7 +55,13 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -54,9 +70,46 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇸🇬 新加坡-ss2 - Wink
+  - 🇸🇬 新加坡-ss3 - Wink
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇯🇵 日本-自用 - Wink
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id004
+  - 🇺🇸 美国rn1-快速 - Wink
+  - 🇺🇸 美国rn2-快速 - Wink
+  - 🇺🇸 美国rn3-高速 - Wink
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id002
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id003
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id004
 proxies:
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: db050f4b-b078-30e3-8294-901550c7bee7, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: db050f4b-b078-30e3-8294-901550c7bee7, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡-ss2 - Wink, server: sg3.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, udp: true}
+- {name: 🇸🇬 新加坡-ss3 - Wink, server: sg2.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, udp: true}
+- {name: 🇺🇸 美国rn1-快速 - Wink, server: us-rn1.xaa.app, port: 443, type: trojan, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn2-快速 - Wink, server: us-rn2.xaa.app, port: 443, type: trojan, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn3-高速 - Wink, server: us-rn3.xaa.app, port: 443, type: trojan, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-自用 - Wink, server: jp.xaa.app, port: 443, type: trojan, password: 9dcca606-f4b4-4cfd-b421-bbfd41abd6e3, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
