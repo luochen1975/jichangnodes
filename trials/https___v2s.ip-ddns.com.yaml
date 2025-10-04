@@ -104,12 +104,12 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: 🇸🇬 新加坡-ss2 - Wink, server: sg3.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, udp: true}
-- {name: 🇸🇬 新加坡-ss3 - Wink, server: sg2.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, udp: true}
-- {name: 🇺🇸 美国rn1-快速 - Wink, server: us-rn1.xaa.app, port: 443, type: trojan, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国rn2-快速 - Wink, server: us-rn2.xaa.app, port: 443, type: trojan, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国rn3-高速 - Wink, server: us-rn3.xaa.app, port: 443, type: trojan, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-自用 - Wink, server: jp.xaa.app, port: 443, type: trojan, password: 664bccca-5bcb-4c37-9cb8-aadbda2cc55d, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡-ss2 - Wink, server: sg3.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, udp: true}
+- {name: 🇸🇬 新加坡-ss3 - Wink, server: sg2.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, udp: true}
+- {name: 🇺🇸 美国rn1-快速 - Wink, server: us-rn1.xaa.app, port: 443, type: trojan, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, sni: us-rn1.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn2-快速 - Wink, server: us-rn2.xaa.app, port: 443, type: trojan, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, sni: us-rn2.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国rn3-高速 - Wink, server: us-rn3.xaa.app, port: 443, type: trojan, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, sni: us-rn3.xaa.app, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-自用 - Wink, server: jp.xaa.app, port: 443, type: trojan, password: aa5243dc-82d8-4f4f-9fb9-0f01e1977e0b, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
