@@ -19,7 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
+  - 免费提供 请勿倒卖 - EZ
+  - ℹ️ 网站注册地址:linlujs.men - EZ
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -54,7 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 6d41850b-b72f-31a4-a1f9-cbac67a1d90c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 免费提供 请勿倒卖 - EZ, server: mianfei02, port: 3333, type: vmess, uuid: 906113f3-a91f-4da6-8fc5-91625ed7db18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 网站注册地址:linlujs.men - EZ, server: mianfei, port: 1111, type: vmess, uuid: 906113f3-a91f-4da6-8fc5-91625ed7db18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
