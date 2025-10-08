@@ -1,14 +1,21 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇭🇰 香港代理01 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 3175796c-42cb-4c72-8b8f-5dd608307063, password: 3175796c-42cb-4c72-8b8f-5dd608307063, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港代理02 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 3175796c-42cb-4c72-8b8f-5dd608307063, password: 3175796c-42cb-4c72-8b8f-5dd608307063, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰香港专线02|BGP|流媒体 - 安心云加速, server: aws-linkhy2.liangxin1.xyz, port: 60000, type: hysteria2, ports: 60000-65530, password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971, sni: iosapps.itunes.apple.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰香港专线03|BGP|流媒体 - 安心云加速, server: aws-linkhy3.liangxin1.xyz, port: 60000, type: hysteria2, ports: 60000-65530, password: 33ba47fe-b2fd-43a6-bcd4-2458a09a4e971, sni: iosapps.itunes.apple.com, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 (2x)IEPL专线 香港1 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 37525f11-eeb3-4461-8b7c-a0a3f7aad537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 (2x)IEPL专线 香港2 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: 37525f11-eeb3-4461-8b7c-a0a3f7aad537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 (2x)IEPL专线 香港3 - NewBee国际机场, server: gzdx.newbee8.me, port: 35660, type: vmess, uuid: 37525f11-eeb3-4461-8b7c-a0a3f7aad537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 10f8d7e8-543d-4e1c-8895-dbfb85813c58, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 10f8d7e8-543d-4e1c-8895-dbfb85813c58, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 10f8d7e8-543d-4e1c-8895-dbfb85813c58, udp: true}
 - {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yh.paint-buster.com, port: 18820, type: vmess, uuid: c2239103-08b2-3851-b41e-9cd6c3b6b29e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yh.paint-buster.com, port: 18838, type: vmess, uuid: c2239103-08b2-3851-b41e-9cd6c3b6b29e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇭🇰 香港01 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32602, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
+- {name: 🇭🇰 香港02 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32602, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
+- {name: 🇭🇰 香港03 - 冰云, server: x.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
+- {name: 🇭🇰 香港04 - 冰云, server: x.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
+- {name: 🇭🇰 香港05（IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
+- {name: 🇭🇰 香港06 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: 63aac6d7-290f-47f9-8a49-8c70e55bcb7d, udp: true}
 - {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: cf5cc69a-f1c6-4ceb-b6ca-725ee4142d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: cf5cc69a-f1c6-4ceb-b6ca-725ee4142d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: cf5cc69a-f1c6-4ceb-b6ca-725ee4142d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
