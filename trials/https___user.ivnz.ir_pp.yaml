@@ -15,20 +15,12 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - Premium - VPN-DATA
-  - U.S.A - VPN-DATA
-  - Đức -  Tiktok - VPN-DATA
-  - 🇹🇭 Thụy Điển  Tiktok - VPN-DATA
-  - Max - VPN-DATA
-  - Premium+ - VPN-DATA
-  - luxury - VPN-DATA
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -59,14 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies:
-- {name: Premium - VPN-DATA, server: 94.241.140.218, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: U.S.A - VPN-DATA, server: 82.97.250.26, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: Đức -  Tiktok - VPN-DATA, server: 77.105.132.8, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: 🇹🇭 Thụy Điển  Tiktok - VPN-DATA, server: 150.241.86.113, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: Max - VPN-DATA, server: 82.97.250.26, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: Premium+ - VPN-DATA, server: 94.241.140.218, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-- {name: luxury - VPN-DATA, server: 91.186.196.235, port: 80, type: vmess, uuid: fea2af7c-31c7-4649-8896-66e745187b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___user.ivnz.ir/All.yaml
+    interval: 180
+    path: trials_providers/https___user.ivnz.ir/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
