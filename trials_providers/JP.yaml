@@ -1,46 +1,42 @@
 %YAML 1.1
 ---
 proxies:
-- &id005 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 36cf534d-7f79-4e69-b716-948501495437, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 36cf534d-7f79-4e69-b716-948501495437, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇯🇵 日本01 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 29337e9d-70b3-48ec-a4f4-57d0c6618dc3, udp: true}
-- &id002 {name: 🇯🇵 日本02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: 29337e9d-70b3-48ec-a4f4-57d0c6618dc3, udp: true}
-- &id003 {name: 🇯🇵 日本03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: 29337e9d-70b3-48ec-a4f4-57d0c6618dc3, udp: true}
-- &id004 {name: 🇯🇵 日本04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: 29337e9d-70b3-48ec-a4f4-57d0c6618dc3, udp: true}
+- &id005 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: df0a81ec-1d49-4e09-b5d1-28853f9f587e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: df0a81ec-1d49-4e09-b5d1-28853f9f587e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇯🇵 日本01 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: b1d22435-6767-4259-80ab-faaa07ac0180, udp: true}
+- &id002 {name: 🇯🇵 日本02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: b1d22435-6767-4259-80ab-faaa07ac0180, udp: true}
+- &id003 {name: 🇯🇵 日本03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: b1d22435-6767-4259-80ab-faaa07ac0180, udp: true}
+- &id004 {name: 🇯🇵 日本04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: b1d22435-6767-4259-80ab-faaa07ac0180, udp: true}
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
 - *id006
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: f00323f9-b565-457a-a94e-4d6032f68578, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: f00323f9-b565-457a-a94e-4d6032f68578, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: f00323f9-b565-457a-a94e-4d6032f68578, udp: true}
-- &id007 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e7dd51f2-fb58-44ec-b1dd-4a4951fc526f, udp: true}
-- &id008 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e7dd51f2-fb58-44ec-b1dd-4a4951fc526f, udp: true}
-- &id009 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: e7dd51f2-fb58-44ec-b1dd-4a4951fc526f, udp: true}
-- &id010 {name: 🇯🇵 JP日本-Tokyo-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 7916fda8-cf86-4856-a419-810baa078390, udp: true}
-- &id011 {name: 🇯🇵 JP日本-Tokyo-wap-02 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 7916fda8-cf86-4856-a419-810baa078390, udp: true}
-- *id007
-- *id008
-- *id009
-- {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: dca1e849-c7a2-3ce1-b425-01a3861bf488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: dca1e849-c7a2-3ce1-b425-01a3861bf488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: dca1e849-c7a2-3ce1-b425-01a3861bf488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 🇯🇵 日本01 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- {name: 🇯🇵 日本02 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- {name: 🇯🇵 日本03 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- {name: 🇯🇵 日本04 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- {name: 🇯🇵 日本05 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- {name: 🇯🇵 日本06 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 417c98cf-3fc0-4bc5-a327-c337a1a6dbf7, udp: true}
-- *id010
-- *id011
-- *id007
-- *id008
-- *id009
-- {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5c946e35-29b7-452d-8438-413bc4d16920, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5c946e35-29b7-452d-8438-413bc4d16920, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- *id010
-- *id011
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 4b16fab0-6ee9-4acd-8130-f27ba25e43d4, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 4b16fab0-6ee9-4acd-8130-f27ba25e43d4, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 4b16fab0-6ee9-4acd-8130-f27ba25e43d4, udp: true}
+- {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: f30dc49d-92b6-30d9-aa81-efc53c539413, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: f30dc49d-92b6-30d9-aa81-efc53c539413, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: f30dc49d-92b6-30d9-aa81-efc53c539413, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇯🇵 日本01 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本02 (流媒体高速） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本03 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本04 （GPT专用） - 冰云, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本05 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本06 (IPLC稳定） - 冰云, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: 4930bb03-cfab-438c-a22c-654aae856cad, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 50328e0b-d57b-43cb-8ce6-42704c71ec9c, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 50328e0b-d57b-43cb-8ce6-42704c71ec9c, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 50328e0b-d57b-43cb-8ce6-42704c71ec9c, udp: true}
+- {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 67e92ee3-3393-447a-a5d4-03eae1b565b5, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 67e92ee3-3393-447a-a5d4-03eae1b565b5, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 35a52403-4157-47f4-9d5f-8c8f0d24cdd7, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
 - *id005
 - *id006
