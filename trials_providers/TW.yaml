@@ -4,7 +4,6 @@ proxies:
 - &id001 {name: 🇹🇼 台湾01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 85760c63-f9e0-47b6-94f0-35aa7f4a2c29, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇹🇼 台湾02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 85760c63-f9e0-47b6-94f0-35aa7f4a2c29, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - &id003 {name: 🇹🇼 台湾01-新疆 - 山药网, server: zl-tw01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 85760c63-f9e0-47b6-94f0-35aa7f4a2c29, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 97329dd4-b7df-44a2-9711-39832370c860, udp: true}
 - &id006 {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: f254b3ef-bd3e-4702-b738-39e4d89a8d4c, udp: true}
 - &id007 {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: f254b3ef-bd3e-4702-b738-39e4d89a8d4c, udp: true}
 - &id008 {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: f254b3ef-bd3e-4702-b738-39e4d89a8d4c, udp: true}
@@ -16,13 +15,10 @@ proxies:
 - *id003
 - &id004 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: ffb6db43-e7a0-49be-a390-f59fc5916a08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id005 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: ffb6db43-e7a0-49be-a390-f59fc5916a08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 9214d844-8585-4ca0-b11a-43f89a6ad056, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 9214d844-8585-4ca0-b11a-43f89a6ad056, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 9214d844-8585-4ca0-b11a-43f89a6ad056, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id004
 - *id005
-- {name: 🇹🇼 台湾01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28400, type: trojan, password: fecfcdf2-35ce-42ee-b040-1380bf8189d7, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28400, type: trojan, password: fecfcdf2-35ce-42ee-b040-1380bf8189d7, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28400, type: trojan, password: f47a1994-78c1-4b6f-9b51-08a8cc274ea3, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28400, type: trojan, password: f47a1994-78c1-4b6f-9b51-08a8cc274ea3, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id006
 - *id007
 - *id008
