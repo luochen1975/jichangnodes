@@ -98,9 +98,9 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: '🇭🇰 [trojan]香港BGP 4x - L1dder', server: bgp2.3224536.xyz, port: 443, type: trojan, password: 58d85857-c1ca-4cb1-83d5-e33dbd10e53f, sni: bgp2.3224536.xyz, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [trojan]新加坡 中国优化路线 - L1dder', server: sg1.3224536.xyz, port: 443, type: trojan, password: 58d85857-c1ca-4cb1-83d5-e33dbd10e53f, sni: sg1.3224536.xyz, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [trojan]美国 - L1dder', server: us1.3224536.xyz, port: 443, type: trojan, password: 58d85857-c1ca-4cb1-83d5-e33dbd10e53f, sni: us1.3224536.xyz, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 [trojan]香港BGP 4x - L1dder', server: bgp2.3224536.xyz, port: 443, type: trojan, password: 75ae16b1-7006-4ce0-a328-01101917b95b, sni: bgp2.3224536.xyz, skip-cert-verify: true, udp: true}
+- {name: '🇸🇬 [trojan]新加坡 中国优化路线 - L1dder', server: sg1.3224536.xyz, port: 443, type: trojan, password: 75ae16b1-7006-4ce0-a328-01101917b95b, sni: sg1.3224536.xyz, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [trojan]美国 - L1dder', server: us1.3224536.xyz, port: 443, type: trojan, password: 75ae16b1-7006-4ce0-a328-01101917b95b, sni: us1.3224536.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
