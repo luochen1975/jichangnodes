@@ -10,8 +10,8 @@ proxies:
 - &id009 {name: 🇯🇵 日本03丨Neflix - 山药网, server: n001.xunxunmimisbs.sbs, port: 41001, type: trojan, password: 76c6beed-fe42-4198-ace3-b8c228aa3362, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - &id010 {name: 🇯🇵 日本04丨GPT - 山药网, server: n002.xunxunmimisbs.sbs, port: 41001, type: trojan, password: 76c6beed-fe42-4198-ace3-b8c228aa3362, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - &id011 {name: 🇯🇵 日本01-新疆 - 山药网, server: zl-jp01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 76c6beed-fe42-4198-ace3-b8c228aa3362, skip-cert-verify: true, udp: true}
-- &id005 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: fd3a0ade-e8d6-486d-abb2-2d44bc96ec90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: fd3a0ade-e8d6-486d-abb2-2d44bc96ec90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id005 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 13c6c2d6-d57e-489c-8199-77a82b199797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 13c6c2d6-d57e-489c-8199-77a82b199797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
@@ -22,9 +22,9 @@ proxies:
 - {name: 🇯🇵 日本04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: 14310f51-9ac0-4d5d-85d7-81d216ae1400, udp: true}
 - *id005
 - *id006
-- &id012 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 251bc722-0714-434d-b122-9e56874b611d, udp: true}
-- &id013 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 251bc722-0714-434d-b122-9e56874b611d, udp: true}
-- &id014 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 251bc722-0714-434d-b122-9e56874b611d, udp: true}
+- &id012 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1193fd12-f631-4175-883d-1f532ad9587d, udp: true}
+- &id013 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1193fd12-f631-4175-883d-1f532ad9587d, udp: true}
+- &id014 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1193fd12-f631-4175-883d-1f532ad9587d, udp: true}
 - &id015 {name: 🇯🇵 JP日本-Tokyo-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 4fe87da3-e73d-4602-b6b5-d7e80804cd30, udp: true}
 - &id016 {name: 🇯🇵 JP日本-Tokyo-wap-02 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 4fe87da3-e73d-4602-b6b5-d7e80804cd30, udp: true}
 - *id007
@@ -42,7 +42,7 @@ proxies:
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: 1a6d5c7d-54fc-3b38-9a23-23734b3b8b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: 1a6d5c7d-54fc-3b38-9a23-23734b3b8b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: 1a6d5c7d-54fc-3b38-9a23-23734b3b8b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 7eddff29-77fc-4937-9f73-d1565e629d17, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 0ad44263-406b-4506-b6fc-6dcf6d87931a, udp: true}
 - *id015
 - *id016
 - *id012
