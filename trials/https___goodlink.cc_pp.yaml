@@ -13,8 +13,10 @@ proxy-groups:
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
   - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -23,6 +25,7 @@ proxy-groups:
   use: &id001
   - HK
   - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -50,8 +53,10 @@ proxy-groups:
   type: select
   proxies:
   - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -70,12 +75,20 @@ proxy-groups:
   tolerance: 300
   use: &id003
   - US
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 100
+  use: &id004
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
 - name: 👆🏻🇺🇸 ‍美国
   type: select
   use: *id003
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use: *id004
 proxy-providers:
   HK:
     type: http
@@ -91,6 +104,15 @@ proxy-providers:
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___goodlink.cc/US.yaml
     interval: 180
     path: trials_providers/https___goodlink.cc/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___goodlink.cc/Other.yaml
+    interval: 180
+    path: trials_providers/https___goodlink.cc/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
