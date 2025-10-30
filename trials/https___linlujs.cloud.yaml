@@ -20,7 +20,7 @@ proxy-groups:
   tolerance: 100
   proxies: &id001
   - ℹ️ 免费套餐停止 请前往官网购买白银套餐 - EZ
-  - ℹ️ 网站注册地址:linlujs.top - EZ
+  - ℹ️ 网站注册地址:linlujs.com - EZ
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -56,7 +56,7 @@ proxy-groups:
   - 💩 ‍广告
 proxies:
 - {name: ℹ️ 免费套餐停止 请前往官网购买白银套餐 - EZ, server: mianfei02, port: 3333, type: vmess, uuid: 906113f3-a91f-4da6-8fc5-91625ed7db18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 网站注册地址:linlujs.top - EZ, server: mianfei, port: 1111, type: vmess, uuid: 906113f3-a91f-4da6-8fc5-91625ed7db18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 网站注册地址:linlujs.com - EZ, server: mianfei, port: 1111, type: vmess, uuid: 906113f3-a91f-4da6-8fc5-91625ed7db18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
