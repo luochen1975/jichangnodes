@@ -62,12 +62,10 @@ proxy-groups:
   - p_All_HK_CN
   - p_All_SG
   - p_All_TW_CN
-  - p_All_US
   - p_All_Other
   - p_All_CN
   - p_All_JP
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
+  - p_All_US
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -172,8 +170,6 @@ proxy-groups:
   - p_All_All_All_JP_JP_JP
   - p_All_All_All_JP_JP_JP
   - p_All_JP
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
@@ -342,15 +338,6 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   p_All_Other:
     type: http
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_Other.yaml
@@ -378,11 +365,11 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_JP_JP:
+  p_All_US:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_JP_JP.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
     interval: 180
-    path: trials_providers/p_All_All_JP_JP.yaml
+    path: trials_providers/p_All_US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
