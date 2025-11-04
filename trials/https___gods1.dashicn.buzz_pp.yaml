@@ -29,48 +29,17 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港01 - 火箭云
-  - 🇭🇰 香港02 - 火箭云
-  - 🇭🇰 香港03丨Neflix - 火箭云
-  - 🇭🇰 香港04 - 火箭云
-  - 🇹🇼 台湾01 - 火箭云
-  - 🇹🇼 台湾02 - 火箭云
-  - 🇸🇬 新加坡01 - 火箭云
-  - 🇸🇬 新加坡02丨Tiktok - 火箭云
-  - 🇸🇬 新加坡03丨Neflix - 火箭云
-  - 🇸🇬 新加坡04丨GPT - 火箭云
-  - 🇯🇵 日本01 - 火箭云
-  - 🇯🇵 日本02丨Tiktok - 火箭云
-  - 🇯🇵 日本03丨Neflix - 火箭云
-  - 🇯🇵 日本04丨GPT - 火箭云
-  - 🇺🇸 美国01丨Neflix - 火箭云
-  - 🇺🇸 美国02丨GPT - 火箭云
-  - ℹ️ 续费地址官网：yes369.com - 火箭云
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云
-  - 超级高佣招合作代理 - 火箭云
-  - 🇰🇷 韩国01丨Tiktok - 火箭云
-  - 🇰🇷 韩国02 - 火箭云
-  - 🇬🇧 英国01 - 火箭云
-  - 🇬🇧 英国02 - 火箭云
-  - 🇩🇪 德国01 - 火箭云
-  - 🇩🇪 德国02 - 火箭云
-  - 🇮🇳 印度01 - 火箭云
-  - 🇮🇳 印度02 - 火箭云
-  - 🇫🇷 法国01 - 火箭云
-  - 🇫🇷 法国02 - 火箭云
-  - 🇦🇪 迪拜01 - 火箭云
-  - 🇦🇪 迪拜02 - 火箭云
-  - 🇻🇳 越南01 - 火箭云
-  - 🇻🇳 越南02 - 火箭云
-  - 🇹🇭 泰国01 - 火箭云
-  - 🇹🇭 泰国02 - 火箭云
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -119,144 +88,116 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港01 - 火箭云
-  - 🇭🇰 香港02 - 火箭云
-  - 🇭🇰 香港03丨Neflix - 火箭云
-  - 🇭🇰 香港04 - 火箭云
+  use: &id002
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾01 - 火箭云
-  - 🇹🇼 台湾02 - 火箭云
+  use: &id003
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港01 - 火箭云
-  - 🇭🇰 香港02 - 火箭云
-  - 🇭🇰 香港03丨Neflix - 火箭云
-  - 🇭🇰 香港04 - 火箭云
-  - 🇹🇼 台湾01 - 火箭云
-  - 🇹🇼 台湾02 - 火箭云
+  use: &id004
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡01 - 火箭云
-  - 🇸🇬 新加坡02丨Tiktok - 火箭云
-  - 🇸🇬 新加坡03丨Neflix - 火箭云
-  - 🇸🇬 新加坡04丨GPT - 火箭云
+  use: &id005
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本01 - 火箭云
-  - 🇯🇵 日本02丨Tiktok - 火箭云
-  - 🇯🇵 日本03丨Neflix - 火箭云
-  - 🇯🇵 日本04丨GPT - 火箭云
+  use: &id006
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国01丨Neflix - 火箭云
-  - 🇺🇸 美国02丨GPT - 火箭云
+  use: &id007
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 续费地址官网：yes369.com - 火箭云
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云
-  - 超级高佣招合作代理 - 火箭云
-  - 🇰🇷 韩国01丨Tiktok - 火箭云
-  - 🇰🇷 韩国02 - 火箭云
-  - 🇬🇧 英国01 - 火箭云
-  - 🇬🇧 英国02 - 火箭云
-  - 🇩🇪 德国01 - 火箭云
-  - 🇩🇪 德国02 - 火箭云
-  - 🇮🇳 印度01 - 火箭云
-  - 🇮🇳 印度02 - 火箭云
-  - 🇫🇷 法国01 - 火箭云
-  - 🇫🇷 法国02 - 火箭云
-  - 🇦🇪 迪拜01 - 火箭云
-  - 🇦🇪 迪拜02 - 火箭云
-  - 🇻🇳 越南01 - 火箭云
-  - 🇻🇳 越南02 - 火箭云
-  - 🇹🇭 泰国01 - 火箭云
-  - 🇹🇭 泰国02 - 火箭云
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
+  use: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  proxies: *id003
+  use: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
+  use: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  use: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  use: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
-proxies:
-- {name: ℹ️ 续费地址官网：yes369.com - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 超级高佣招合作代理 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国01丨Tiktok - 火箭云, server: n001.xunxunmimisbs.sbs, port: 43100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 43100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 44100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 44100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 46100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 46100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 47100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 47100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 48100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 48100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇦🇪 迪拜01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇦🇪 迪拜02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49100, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49110, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49110, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇭 泰国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49120, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇭 泰国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49120, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 2787e35c-fed9-4fd7-abcc-d9597e64c48f, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/HK.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/TW.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/SG.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/JP.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/US.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___gods1.dashicn.buzz/Other.yaml
+    interval: 180
+    path: trials_providers/https___gods1.dashicn.buzz/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
