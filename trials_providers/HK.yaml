@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 5d97514e-96a2-4730-9548-6bfc0974407e, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 5d97514e-96a2-4730-9548-6bfc0974407e, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id003 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 5d97514e-96a2-4730-9548-6bfc0974407e, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 5d97514e-96a2-4730-9548-6bfc0974407e, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: df146a61-934b-4ccc-8b64-ce559957016c, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: df146a61-934b-4ccc-8b64-ce559957016c, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: df146a61-934b-4ccc-8b64-ce559957016c, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: df146a61-934b-4ccc-8b64-ce559957016c, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - &id013 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 7452c53a-ac52-34e4-83dc-6d701e2eab5f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港代理01 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 3175796c-42cb-4c72-8b8f-5dd608307063, password: 3175796c-42cb-4c72-8b8f-5dd608307063, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港代理02 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 3175796c-42cb-4c72-8b8f-5dd608307063, password: 3175796c-42cb-4c72-8b8f-5dd608307063, skip-cert-verify: true, udp: true}
@@ -16,20 +16,15 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 36e0a302-9438-427c-8205-169198e6afc6, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 36e0a302-9438-427c-8205-169198e6afc6, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 36e0a302-9438-427c-8205-169198e6afc6, udp: true}
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 986caf9c-0e8d-4ba1-8dc3-db396ce01c94, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 986caf9c-0e8d-4ba1-8dc3-db396ce01c94, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 986caf9c-0e8d-4ba1-8dc3-db396ce01c94, udp: true}
 - &id007 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
 - &id008 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
 - &id009 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
 - &id010 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
 - &id011 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
 - &id012 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 48ff6cfd-b31a-4a0f-8cff-07a5d0f41a6a, udp: true}
-- {name: 🇭🇰 香港01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 4ba9aa76-0ddd-4355-b971-a55f3c9ac616, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 4ba9aa76-0ddd-4355-b971-a55f3c9ac616, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 山药网, server: n001.xunxunmimisbs.sbs, port: 21001, type: trojan, password: 4ba9aa76-0ddd-4355-b971-a55f3c9ac616, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港04 - 山药网, server: n002.xunxunmimisbs.sbs, port: 21001, type: trojan, password: 4ba9aa76-0ddd-4355-b971-a55f3c9ac616, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港01-新疆 - 山药网, server: zl-hk01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 4ba9aa76-0ddd-4355-b971-a55f3c9ac616, sni: zl_hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id007
 - *id008
 - *id009
@@ -40,7 +35,9 @@ proxies:
 - *id002
 - *id003
 - *id004
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: b8f44dba-3bdc-4f20-89a9-000369fd21db, udp: true}
+- {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18820, type: vmess, uuid: e5a73d5e-474a-375e-a9c3-fd78efcb5976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18838, type: vmess, uuid: e5a73d5e-474a-375e-a9c3-fd78efcb5976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: e1074b10-5fc5-43d3-b613-fd5a78249541, udp: true}
 - *id007
 - *id008
 - *id009
