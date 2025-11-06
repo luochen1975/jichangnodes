@@ -11,65 +11,16 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港01 - 疾速cloud
-  - 🇭🇰 香港02 - 疾速cloud
-  - 🇭🇰 香港03丨Neflix - 疾速cloud
-  - 🇭🇰 香港04 - 疾速cloud
-  - 🇹🇼 台湾01 - 疾速cloud
-  - 🇹🇼 台湾02 - 疾速cloud
-  - 🇸🇬 新加坡01 - 疾速cloud
-  - 🇸🇬 新加坡02丨Tiktok - 疾速cloud
-  - 🇸🇬 新加坡03丨Neflix - 疾速cloud
-  - 🇸🇬 新加坡04丨GPT - 疾速cloud
-  - 🇯🇵 日本01 - 疾速cloud
-  - 🇯🇵 日本02丨Tiktok - 疾速cloud
-  - 🇺🇸 美国01丨Neflix - 疾速cloud
-  - 🇺🇸 美国02丨GPT - 疾速cloud
-  - ℹ️ 续费地址官网：vam666.com - 疾速cloud
-  - ℹ️ 备用：vam166.com - 疾速cloud
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 疾速cloud
-  - 超级高佣招合作代理 - 疾速cloud
-  - 🇰🇷 韩国01丨Tiktok - 疾速cloud
-  - 🇰🇷 韩国02 - 疾速cloud
-  - 🇬🇧 英国01 - 疾速cloud
-  - 🇬🇧 英国02 - 疾速cloud
-  - 🇩🇪 德国01 - 疾速cloud
-  - 🇩🇪 德国02 - 疾速cloud
-  - 🇫🇷 法国01 - 疾速cloud
-  - 🇫🇷 法国02 - 疾速cloud
-  - 🇮🇳 印度01 - 疾速cloud
-  - 🇮🇳 印度02 - 疾速cloud
-  - 🇦🇪 迪拜01 - 疾速cloud
-  - 🇦🇪 迪拜02 - 疾速cloud
-  - 🇻🇳 越南01 - 疾速cloud
-  - 🇻🇳 越南02 - 疾速cloud
-  - 🇹🇭 泰国01 - 疾速cloud
-  - 🇹🇭 泰国02 - 疾速cloud
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -86,28 +37,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -116,144 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港01 - 疾速cloud
-  - 🇭🇰 香港02 - 疾速cloud
-  - 🇭🇰 香港03丨Neflix - 疾速cloud
-  - 🇭🇰 香港04 - 疾速cloud
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾01 - 疾速cloud
-  - 🇹🇼 台湾02 - 疾速cloud
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港01 - 疾速cloud
-  - 🇭🇰 香港02 - 疾速cloud
-  - 🇭🇰 香港03丨Neflix - 疾速cloud
-  - 🇭🇰 香港04 - 疾速cloud
-  - 🇹🇼 台湾01 - 疾速cloud
-  - 🇹🇼 台湾02 - 疾速cloud
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡01 - 疾速cloud
-  - 🇸🇬 新加坡02丨Tiktok - 疾速cloud
-  - 🇸🇬 新加坡03丨Neflix - 疾速cloud
-  - 🇸🇬 新加坡04丨GPT - 疾速cloud
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本01 - 疾速cloud
-  - 🇯🇵 日本02丨Tiktok - 疾速cloud
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国01丨Neflix - 疾速cloud
-  - 🇺🇸 美国02丨GPT - 疾速cloud
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id008
-  - ℹ️ 续费地址官网：vam666.com - 疾速cloud
-  - ℹ️ 备用：vam166.com - 疾速cloud
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 疾速cloud
-  - 超级高佣招合作代理 - 疾速cloud
-  - 🇰🇷 韩国01丨Tiktok - 疾速cloud
-  - 🇰🇷 韩国02 - 疾速cloud
-  - 🇬🇧 英国01 - 疾速cloud
-  - 🇬🇧 英国02 - 疾速cloud
-  - 🇩🇪 德国01 - 疾速cloud
-  - 🇩🇪 德国02 - 疾速cloud
-  - 🇫🇷 法国01 - 疾速cloud
-  - 🇫🇷 法国02 - 疾速cloud
-  - 🇮🇳 印度01 - 疾速cloud
-  - 🇮🇳 印度02 - 疾速cloud
-  - 🇦🇪 迪拜01 - 疾速cloud
-  - 🇦🇪 迪拜02 - 疾速cloud
-  - 🇻🇳 越南01 - 疾速cloud
-  - 🇻🇳 越南02 - 疾速cloud
-  - 🇹🇭 泰国01 - 疾速cloud
-  - 🇹🇭 泰国02 - 疾速cloud
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id008
-proxies:
-- {name: ℹ️ 续费地址官网：vam666.com - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 备用：vam166.com - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 超级高佣招合作代理 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21201, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港04 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21201, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31201, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31201, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国01丨Tiktok - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 22100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 22100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 23100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 23100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 24100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 24100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 25100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 25100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 26100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 26100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 27100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 27100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇦🇪 迪拜01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇦🇪 迪拜02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28100, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇻🇳 越南02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28200, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇭 泰国01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28300, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇭 泰国02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28300, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28400, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28400, type: trojan, password: c1e072ba-8aa4-4e91-b203-bec9f4276915, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/http___www.sdmone.pro/All.yaml
+    interval: 180
+    path: trials_providers/http___www.sdmone.pro/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
