@@ -12,34 +12,49 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - TW
-  - SG
-  - JP
-  - US
-  - Other
+  proxies: &id001
+  - 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港3 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港4 | Agg - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo5 | 直连 - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo7 | 直连 - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港5 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港6 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港7 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港8 | Egg - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg5 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg7 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg1 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg2 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg3 | IPv4 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo2 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo3 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd1 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd2 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd3 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd4 | 高速 - E云-跨境电商服务
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -57,26 +72,18 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
   - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -88,116 +95,91 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - HK
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - TW
-- name: 🇨🇳 ‍中国
-  type: url-test
-  tolerance: 100
-  use: &id004
-  - HK
-  - TW
+  proxies: &id002
+  - 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港3 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港4 | Agg - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo5 | 直连 - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo7 | 直连 - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港5 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港6 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港7 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港8 | Egg - E云-跨境电商服务
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id005
-  - SG
-- name: 🇯🇵 ‍日本
-  type: url-test
-  tolerance: 100
-  use: &id006
-  - JP
+  proxies: &id003
+  - 🇸🇬 SG新加坡 | gg5 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg7 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg1 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg2 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg3 | IPv4 - E云-跨境电商服务
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id007
-  - US
+  proxies: &id004
+  - 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo2 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo3 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id008
-  - Other
+  proxies: &id005
+  - 🇫🇷 FR法国 | Ggd1 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd2 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd3 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd4 | 高速 - E云-跨境电商服务
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  use: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  use: *id004
+  proxies: *id002
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  use: *id006
+  proxies: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  proxies: *id004
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/HK.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  TW:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/TW.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/SG.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/JP.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/US.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___syxixi001.xxssx.cn/Other.yaml
-    interval: 180
-    path: trials_providers/https___syxixi001.xxssx.cn/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id005
+proxies:
+- {name: 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14641, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14642, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港3 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14643, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港4 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14644, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 HK香港 | Evo5 | 直连 - E云-跨境电商服务, server: hk.ggzl.tiksg.icu, port: 2205, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 HK香港 | Evo7 | 直连 - E云-跨境电商服务, server: hk.ggzl.tiksg.icu, port: 2207, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港5 | Egg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14651, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港6 | Egg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14652, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港7 | Egg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14653, type: ss, cipher: aes-128-gcm, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇭🇰 【高速】HK香港8 | Egg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14654, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇸🇬 SG新加坡 | gg5 | 直连 - E云-跨境电商服务, server: sg.ggzl.tiksg.icu, port: 2005, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇸🇬 SG新加坡 | gg7 | 直连 - E云-跨境电商服务, server: sg.ggzl.tiksg.icu, port: 2007, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇸🇬 SG新加坡 | Ggg1 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14671, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇸🇬 SG新加坡 | Ggg2 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14672, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇸🇬 SG新加坡 | Ggg3 | IPv4 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14673, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务, server: us.evozl.tiksg.icu, port: 2005, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务, server: us.evozl.tiksg.icu, port: 2007, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10271, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | Evo2 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10272, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | Evo3 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10273, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10274, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇫🇷 FR法国 | Ggd1 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14691, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇫🇷 FR法国 | Ggd2 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14692, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇫🇷 FR法国 | Ggd3 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14693, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
+- {name: 🇫🇷 FR法国 | Ggd4 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14694, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
