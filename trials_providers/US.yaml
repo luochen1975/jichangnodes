@@ -2,8 +2,12 @@
 ---
 proxies:
 - &id008 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 3530eeef-fae0-3b36-be15-7f62db7a1e54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 310de94e-68ad-4af6-9e2d-609273e90f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 310de94e-68ad-4af6-9e2d-609273e90f56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V1-美国01∣K18线路∣1.5X - 土豆加速, server: gdcloud.xissyun.com, port: 57793, type: trojan, password: 7a8bdf56-202e-4f4b-84c8-684320fe0e31, sni: k18.tudou211.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V1-美国02∣K19线路∣1.5X - 土豆加速, server: gdcloud.xissyun.com, port: 40808, type: trojan, password: 7a8bdf56-202e-4f4b-84c8-684320fe0e31, sni: k19.tudou211.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V1-美国03∣K5线路∣1.5X - 土豆加速, server: gdcloud.xissyun.com, port: 19828, type: trojan, password: 7a8bdf56-202e-4f4b-84c8-684320fe0e31, sni: k5.tudou211.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 V1-美国04∣K6线路∣1.5X - 土豆加速, server: gdcloud.xissyun.com, port: 23980, type: trojan, password: 7a8bdf56-202e-4f4b-84c8-684320fe0e31, sni: k6.tudou211.com, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 59ccd9b8-65c6-4c06-91e6-62f20f3c6cf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 59ccd9b8-65c6-4c06-91e6-62f20f3c6cf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务, server: us.evozl.tiksg.icu, port: 2005, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
 - {name: 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务, server: us.evozl.tiksg.icu, port: 2007, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
 - {name: 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10271, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
@@ -12,22 +16,22 @@ proxies:
 - {name: 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 10274, type: ss, cipher: chacha20-ietf-poly1305, password: 823aed4b-95c3-408a-90c4-0bab0f806bf5, udp: true}
 - *id001
 - *id002
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: dd03f1e9-3b0d-4e6e-8deb-8ecc935cd23c, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: dd03f1e9-3b0d-4e6e-8deb-8ecc935cd23c, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: dd03f1e9-3b0d-4e6e-8deb-8ecc935cd23c, udp: true}
-- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1b2118b0-7dee-48aa-b708-6b1cfe05c240, udp: true}
-- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1b2118b0-7dee-48aa-b708-6b1cfe05c240, udp: true}
-- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1b2118b0-7dee-48aa-b708-6b1cfe05c240, udp: true}
-- &id006 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: e6347db8-1384-495c-a917-4fdc849d694a, udp: true}
-- &id007 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.fnnnt.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: e6347db8-1384-495c-a917-4fdc849d694a, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 826242df-0996-419d-8199-e4647243c67a, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd35c0d-9477-4b42-8aa5-948fde3724bb, udp: true}
+- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd35c0d-9477-4b42-8aa5-948fde3724bb, udp: true}
+- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd35c0d-9477-4b42-8aa5-948fde3724bb, udp: true}
+- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 516be75a-f483-4684-87f2-fb276348850a, udp: true}
+- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 516be75a-f483-4684-87f2-fb276348850a, udp: true}
+- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 516be75a-f483-4684-87f2-fb276348850a, udp: true}
+- &id006 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 3ab3ce71-a185-4c41-a6af-e24f8badf039, udp: true}
+- &id007 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.fnnnt.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 3ab3ce71-a185-4c41-a6af-e24f8badf039, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 314254ef-ea1a-4312-82b2-a9afa8afa48a, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
 - *id005
 - {name: 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18814, type: vmess, uuid: 72033569-fcd9-3fe2-803c-6e6fe0593066, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18830, type: vmess, uuid: 72033569-fcd9-3fe2-803c-6e6fe0593066, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18837, type: vmess, uuid: 72033569-fcd9-3fe2-803c-6e6fe0593066, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: dab45637-ee8a-4ae1-a0ef-b8ac2a56ac87, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: dd440013-4c7f-424e-ace1-40a03ff474d7, udp: true}
 - *id006
 - *id007
 - *id003
@@ -40,8 +44,8 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: ff395057-19a7-482e-ae1c-bf2ba24a8ed8, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: ff395057-19a7-482e-ae1c-bf2ba24a8ed8, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: ff395057-19a7-482e-ae1c-bf2ba24a8ed8, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- *id006
-- *id007
 - *id001
 - *id002
+- *id006
+- *id007
 - *id008
