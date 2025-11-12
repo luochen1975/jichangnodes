@@ -66,6 +66,8 @@ proxy-groups:
   - p_All_All_All_JP_JP_JP
   - p_All_All_All_JP_JP_JP
   - p_All_CN
+  - p_All_All_SG_SG
+  - p_All_All_SG_SG
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -160,6 +162,8 @@ proxy-groups:
   - p_All_All_All_SG_SG_SG
   - p_All_All_All_SG_SG_SG
   - p_All_All_All_SG_SG_SG
+  - p_All_All_SG_SG
+  - p_All_All_SG_SG
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 100
@@ -370,6 +374,15 @@ proxy-providers:
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_CN.yaml
     interval: 180
     path: trials_providers/p_All_CN.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_All_SG_SG:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_SG_SG.yaml
+    interval: 180
+    path: trials_providers/p_All_All_SG_SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
