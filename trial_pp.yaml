@@ -45,8 +45,6 @@ proxy-groups:
   - p_All_SG
   - p_All_TW_CN
   - p_All_Other
-  - p_All_JP
-  - p_All_US
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
@@ -66,6 +64,8 @@ proxy-groups:
   - p_All_All_All_JP_JP_JP
   - p_All_All_All_JP_JP_JP
   - p_All_CN
+  - p_All_JP
+  - p_All_US
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -166,20 +166,20 @@ proxy-groups:
   use: &id006
   - p_All_All_JP_JP
   - p_All_All_JP_JP
+  - p_All_All_All_JP_JP_JP
+  - p_All_All_All_JP_JP_JP
+  - p_All_All_All_JP_JP_JP
   - p_All_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
   use: &id007
   - p_All_All_US_US
   - p_All_All_US_US
+  - p_All_All_All_US_US_US
+  - p_All_All_All_US_US_US
+  - p_All_All_All_US_US_US
   - p_All_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
@@ -293,24 +293,6 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   p_All_All_All_Other_Other_Other:
     type: http
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
@@ -370,6 +352,24 @@ proxy-providers:
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_CN.yaml
     interval: 180
     path: trials_providers/p_All_CN.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_JP:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_JP.yaml
+    interval: 180
+    path: trials_providers/p_All_JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_US:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
+    interval: 180
+    path: trials_providers/p_All_US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -8216,35 +8216,6 @@ rules:
 - DOMAIN-SUFFIX,xdrig.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,xhscdn.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,xiachufang.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xiaohongshu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xiaojukeji.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xinhuanet.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xip.io,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xitek.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xslb.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,xueqiu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yach.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yeepay.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yhd.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yihaodianimg.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yinxiang.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yinyuetai.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yixia.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,ys168.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yuewen.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yy.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,yystatic.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zealer.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhangzishi.cc,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhanqi.tv,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhaopin.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhihu.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhimg.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhipin.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhongsou.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,zhuihd.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,cmbchina.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,95516.com,🛩️ ‍墙内
 - IP-CIDR,8.128.0.0/10,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.32.0/22,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.40.0/21,🛩️ ‍墙内,no-resolve
