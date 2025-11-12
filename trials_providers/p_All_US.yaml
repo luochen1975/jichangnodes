@@ -1,10 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 5a6cdfd7-190b-4ebe-8454-d42f6b841e5f, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 5a6cdfd7-190b-4ebe-8454-d42f6b841e5f, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 5a6cdfd7-190b-4ebe-8454-d42f6b841e5f, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 25cee5e9-c793-4105-9353-04df28b9379d, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国移动 - FastVPN, server: 47.242.1.128, port: 5673, type: trojan, password: 5c3e0562-f3a3-44b5-9f93-588d9cc2bd17, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国联通1 - FastVPN, server: 144.202.125.59, port: 40793, type: trojan, password: 5c3e0562-f3a3-44b5-9f93-588d9cc2bd17, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国移动1 - FastVPN, server: 144.202.125.59, port: 21437, type: vmess, uuid: 5c3e0562-f3a3-44b5-9f93-588d9cc2bd17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国移动4 - FastVPN, server: 144.202.125.59, port: 19282, type: ss, cipher: aes-256-gcm, password: 5c3e0562-f3a3-44b5-9f93-588d9cc2bd17, udp: true}
+- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 181cc641-76a6-4a38-85ac-4c1e21735309, udp: true}
+- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 181cc641-76a6-4a38-85ac-4c1e21735309, udp: true}
+- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 181cc641-76a6-4a38-85ac-4c1e21735309, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: a37da687-3ec5-4f00-8c62-a00090623648, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18814, type: vmess, uuid: 21f7b045-963e-354c-a766-fa1a4a804b69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18830, type: vmess, uuid: 21f7b045-963e-354c-a766-fa1a4a804b69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18837, type: vmess, uuid: 21f7b045-963e-354c-a766-fa1a4a804b69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
