@@ -9,8 +9,59 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co
+  - 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co
+  - 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co
+  - 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co
+  - 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co
+  - 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co
+  - 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co
+  - 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co
+  - 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co
+  - 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co
+  - 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co
+  - 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co
+  - 🇨🇦 加拿大①一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇳 印度①孟买一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇩 印度尼西亚--雅加达①一优化 - tuboshu.io|土拨鼠.co
+  - 🇧🇷 巴西①一优化 - tuboshu.io|土拨鼠.co
+  - 🇩🇪 德国①一优化 - tuboshu.io|土拨鼠.co
+  - 🇩🇪 德国②一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇹 意大利①一优化 - tuboshu.io|土拨鼠.co
+  - 🇫🇷 法国①巴黎一优化 - tuboshu.io|土拨鼠.co
+  - 🇦🇺 澳大利亚①悉尼一优化 - tuboshu.io|土拨鼠.co
+  - 🇸🇪 瑞典①斯德哥尔摩一优化 - tuboshu.io|土拨鼠.co
+  - 🇬🇧 英国①一优化 - tuboshu.io|土拨鼠.co
+  - 🇳🇱 荷兰①阿姆斯特丹一优化 - tuboshu.io|土拨鼠.co
+  - 🇪🇸 西班牙①一优化 - tuboshu.io|土拨鼠.co
+  - 🇦🇷 阿根廷一优化 - tuboshu.io|土拨鼠.co
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +78,29 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,6 +108,99 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co
+  - 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co
+  - 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co
+  - 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co
+  - 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co
+  - 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co
+  - 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co
+  - 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co
+  - 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id007
+  - 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co
+  - 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co
+  - 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id008
+  - 🇨🇦 加拿大①一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇳 印度①孟买一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇩 印度尼西亚--雅加达①一优化 - tuboshu.io|土拨鼠.co
+  - 🇧🇷 巴西①一优化 - tuboshu.io|土拨鼠.co
+  - 🇩🇪 德国①一优化 - tuboshu.io|土拨鼠.co
+  - 🇩🇪 德国②一优化 - tuboshu.io|土拨鼠.co
+  - 🇮🇹 意大利①一优化 - tuboshu.io|土拨鼠.co
+  - 🇫🇷 法国①巴黎一优化 - tuboshu.io|土拨鼠.co
+  - 🇦🇺 澳大利亚①悉尼一优化 - tuboshu.io|土拨鼠.co
+  - 🇸🇪 瑞典①斯德哥尔摩一优化 - tuboshu.io|土拨鼠.co
+  - 🇬🇧 英国①一优化 - tuboshu.io|土拨鼠.co
+  - 🇳🇱 荷兰①阿姆斯特丹一优化 - tuboshu.io|土拨鼠.co
+  - 🇪🇸 西班牙①一优化 - tuboshu.io|土拨鼠.co
+  - 🇦🇷 阿根廷一优化 - tuboshu.io|土拨鼠.co
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
 - {name: 🇨🇦 加拿大①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18851, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇮🇳 印度①孟买一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18808, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
@@ -48,7 +210,7 @@ proxies:
 - {name: 🇧🇷 巴西①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18826, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇩🇪 德国①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18816, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇩🇪 德国②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18831, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 意大利①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18840, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇮🇹 意大利①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18840, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18810, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18829, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
@@ -56,14 +218,14 @@ proxies:
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇫🇷 法国①巴黎一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18819, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇦🇺 澳大利亚①悉尼一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18811, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 瑞典①斯德哥尔摩一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18809, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇸🇪 瑞典①斯德哥尔摩一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18809, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国①弗里蒙特一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18814, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国②亚特兰大一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18830, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18837, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
 - {name: 🇬🇧 英国①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18815, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 荷兰①阿姆斯特丹一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18822, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
-- {name: 西班牙①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18852, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 阿根廷一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18853, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇳🇱 荷兰①阿姆斯特丹一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18822, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
+- {name: 🇪🇸 西班牙①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18852, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇦🇷 阿根廷一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18853, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18820, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18838, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 rules:
