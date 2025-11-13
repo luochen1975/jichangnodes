@@ -3,16 +3,13 @@
 proxies:
 - {name: 🇸🇬 新加坡代理01 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡代理02 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
-- &id009 {name: 🇸🇬 新加坡电信-奈飞专线(WARP) - FastVPN, server: 47.242.1.128, port: 4342, type: trojan, password: 617d2a14-77b5-4581-a2d1-a7bfc6c5f6f0, skip-cert-verify: true, udp: true}
-- &id010 {name: 🇸🇬 新加坡联通1 - FastVPN, server: 149.28.141.254, port: 15841, type: trojan, password: 617d2a14-77b5-4581-a2d1-a7bfc6c5f6f0, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇸🇬 新加坡移动1 - FastVPN, server: 149.28.141.254, port: 29974, type: vmess, uuid: 617d2a14-77b5-4581-a2d1-a7bfc6c5f6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: af0fce13-59d1-413c-a447-ab5dc7758954, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: af0fce13-59d1-413c-a447-ab5dc7758954, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 92d8b188-71bd-48b4-bdb7-d4a326913583, udp: true}
-- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 92d8b188-71bd-48b4-bdb7-d4a326913583, udp: true}
-- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 92d8b188-71bd-48b4-bdb7-d4a326913583, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 331bcabc-0a28-4013-9e5f-1a78fbf5b593, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 331bcabc-0a28-4013-9e5f-1a78fbf5b593, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 331bcabc-0a28-4013-9e5f-1a78fbf5b593, udp: true}
 - &id003 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: aa4938cb-97dc-49c6-aff1-142bb0fb519c, udp: true}
 - &id004 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: aa4938cb-97dc-49c6-aff1-142bb0fb519c, udp: true}
 - &id005 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: aa4938cb-97dc-49c6-aff1-142bb0fb519c, udp: true}
@@ -25,9 +22,6 @@ proxies:
 - *id006
 - *id007
 - *id008
-- *id009
-- *id010
-- *id011
 - {name: 🇸🇬 新加坡①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18810, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇸🇬 新加坡②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18829, type: vmess, uuid: e4e6405f-7cd8-3487-9122-278d1352b091, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
 - *id003
