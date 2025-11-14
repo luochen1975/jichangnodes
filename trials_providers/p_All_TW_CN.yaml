@@ -1,11 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 3cf8f5d9-fc8a-4e40-a13b-46bcaf84ff6e, udp: true}
-- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 3cf8f5d9-fc8a-4e40-a13b-46bcaf84ff6e, udp: true}
-- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 3cf8f5d9-fc8a-4e40-a13b-46bcaf84ff6e, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 97346aea-cb8c-4e11-b0d3-0cfddc5be912, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 97346aea-cb8c-4e11-b0d3-0cfddc5be912, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 97346aea-cb8c-4e11-b0d3-0cfddc5be912, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18850, type: vmess, uuid: e0b369e3-e607-333a-a5d9-f4c9a355fe80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18856, type: vmess, uuid: e0b369e3-e607-333a-a5d9-f4c9a355fe80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇹🇼 台湾代理01 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾代理02 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 6baba9f4-1b66-4810-9fb4-10b2bf9b0358, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 6baba9f4-1b66-4810-9fb4-10b2bf9b0358, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 6baba9f4-1b66-4810-9fb4-10b2bf9b0358, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18850, type: vmess, uuid: 513523f8-a465-3893-acbf-75ecba1ef955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18856, type: vmess, uuid: 513523f8-a465-3893-acbf-75ecba1ef955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
