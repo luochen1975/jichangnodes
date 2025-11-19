@@ -7,9 +7,12 @@ proxies:
 - &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: f3d0e521-1ece-472e-8de7-34ea14063c00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- &id003 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyaa.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 716a4097-965c-4989-998b-782d42ac778f, udp: true}
-- &id004 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyaa.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 716a4097-965c-4989-998b-782d42ac778f, udp: true}
-- &id005 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 716a4097-965c-4989-998b-782d42ac778f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 3a0c4f53-82f1-483a-b87f-c7ea73cd4189, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 3a0c4f53-82f1-483a-b87f-c7ea73cd4189, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 3a0c4f53-82f1-483a-b87f-c7ea73cd4189, udp: true}
+- &id003 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyaa.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: b6903f1f-fdf7-42af-bd7b-8d08929e781c, udp: true}
+- &id004 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyaa.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: b6903f1f-fdf7-42af-bd7b-8d08929e781c, udp: true}
+- &id005 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: b6903f1f-fdf7-42af-bd7b-8d08929e781c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - *id003
 - *id004
 - *id005
