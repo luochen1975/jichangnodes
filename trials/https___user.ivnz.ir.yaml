@@ -19,8 +19,7 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple
-  - ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple
+  - اشتراک شما به پایان رسیده - YoozPanel
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -55,8 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 1f4bafbd-fa69-3e7f-829e-0a84509b0576, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 1f4bafbd-fa69-3e7f-829e-0a84509b0576, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: اشتراک شما به پایان رسیده - YoozPanel, server: vvv.google.com, port: 20007, type: vmess, uuid: 9445f62d-2d71-427a-912c-8928cafc057a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vvv.google.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
