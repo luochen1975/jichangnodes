@@ -1,14 +1,18 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: efa8c0f2-ba7e-3c5c-95cd-3da6dfce97d4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: efa8c0f2-ba7e-3c5c-95cd-3da6dfce97d4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 32211, type: trojan, password: 3b3be4f0-4648-47b8-8f7c-96e54f3b3ee5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾代理01 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾代理02 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, password: 2bdd6e54-a57a-4d43-b357-d1f7690a3045, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 5778682c-c0cc-4f07-9cae-cd3a6b3456fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: 5778682c-c0cc-4f07-9cae-cd3a6b3456fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: ac248aca-6f3b-4557-b8a9-551ed936e7e7, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: ac248aca-6f3b-4557-b8a9-551ed936e7e7, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: ac248aca-6f3b-4557-b8a9-551ed936e7e7, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 3f0a9c33-a221-4dbd-8557-10153a97252d, udp: true}
+- &id001 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 09bba305-4347-4f61-bc81-7029b4eded14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: 09bba305-4347-4f61-bc81-7029b4eded14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
+- *id002
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 43b52e0c-3fc9-4626-a473-3521a2924d95, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 43b52e0c-3fc9-4626-a473-3521a2924d95, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 43b52e0c-3fc9-4626-a473-3521a2924d95, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: ee02734f-1983-4773-a7fe-4229dbde598e, udp: true}
+- *id001
+- *id002
+- *id003
