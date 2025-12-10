@@ -29,48 +29,25 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_All_US_US
-  - p_All_All_US_US
-  - p_All_Other
-  - p_All_HK_CN
-  - p_All_TW_CN
-  - p_All_SG
-  - p_All_JP
-  - p_All_US
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_SG_SG_SG
-  - p_All_All_All_SG_SG_SG
-  - p_All_All_All_SG_SG_SG
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_CN
+  proxies: &id001
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - 北极星加速器
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -119,274 +96,97 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_HK_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
+  proxies: &id002
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🇹🇼 ‍台湾
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id003
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_TW_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
+  proxies: &id003
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🇨🇳 ‍中国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id004
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_HK_CN
-  - p_All_TW_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_TW_TW_TW_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_All_All_HK_HK_HK_CN_CN_CN
-  - p_All_CN
+  proxies: &id004
+  - 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id005
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
-  - p_All_SG
-  - p_All_All_All_SG_SG_SG
-  - p_All_All_All_SG_SG_SG
-  - p_All_All_All_SG_SG_SG
+  proxies: &id005
+  - 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🇯🇵 ‍日本
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id006
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
-  - p_All_All_All_JP_JP_JP
+  proxies: &id006
+  - 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id007
-  - p_All_All_US_US
-  - p_All_All_US_US
-  - p_All_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
-  - p_All_All_All_US_US_US
+  proxies: &id007
+  - 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
+  - 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id008
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
+  proxies: &id008
+  - 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - 北极星加速器
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
+  proxies: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  use: *id003
+  proxies: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  use: *id004
+  proxies: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id005
+  proxies: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id006
+  proxies: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  proxies: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
-proxy-providers:
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_HK_HK_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_TW_TW_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_SG_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_SG_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_All_SG_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_JP_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_JP_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_All_JP_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_US_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
-    interval: 180
-    path: trials_providers/p_All_All_US_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_HK_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_HK_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_TW_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_TW_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_TW_TW_TW_CN_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_TW_TW_TW_CN_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_TW_TW_TW_CN_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_HK_HK_HK_CN_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_HK_HK_HK_CN_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_HK_HK_HK_CN_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_US_US_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_US_US_US.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_US_US_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_SG_SG_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_SG_SG_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_SG_SG_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_JP_JP_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_JP_JP_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_JP_JP_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id008
+proxies:
+- {name: 🇹🇳 PC端如无法使用请点击左下角齿轮图标进入设置，勾选TUN，并清理缓存。即可畅享超高带宽下的极速视频体验。 - 北极星加速器, server: 120.241.40.34, port: 28888, type: ss, cipher: chacha20-ietf-poly1305, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, udp: true}
+- {name: 🇭🇰 香港 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 · 4号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 31104, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 32211, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 33301, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34411, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34412, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34413, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
