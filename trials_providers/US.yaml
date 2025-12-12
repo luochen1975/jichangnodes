@@ -6,8 +6,14 @@ proxies:
 - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 285c68ac-ad05-41a5-919f-d8ce36c31a95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: d793b2fb-9f3c-416c-8660-8cacc0911e77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: d793b2fb-9f3c-416c-8660-8cacc0911e77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: fa621b80-aa33-4258-b273-8e4a0430e4a4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国1-中转 - V2Board, server: cd.737hda.xin, port: 22294, type: ss, cipher: chacha20-ietf-poly1305, password: 92b38ac2-df94-41fb-a558-626b8250058c, udp: true}
+- *id001
+- *id002
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: b5fb98b1-e72f-4449-a4ab-a1d2ec194157, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 232fc253-94ce-4408-9126-d7a85a391c0b, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 232fc253-94ce-4408-9126-d7a85a391c0b, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 232fc253-94ce-4408-9126-d7a85a391c0b, udp: true}
+- {name: 🇺🇸 美国1-中转 - V2Board, server: cd.737hda.xin, port: 22294, type: ss, cipher: chacha20-ietf-poly1305, password: 57f57fcb-711f-4f94-931a-2fcc24ca20bd, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 8ffec090-c026-4b4f-964b-04ba3eb4229b, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: d28ef9ca-6a16-4d0e-812a-af2f1a7aeb19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: d28ef9ca-6a16-4d0e-812a-af2f1a7aeb19, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: d28ef9ca-6a16-4d0e-812a-af2f1a7aeb19, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
