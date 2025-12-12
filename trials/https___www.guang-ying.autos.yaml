@@ -14,14 +14,12 @@ proxy-groups:
   - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
@@ -33,15 +31,11 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  - 🇭🇰 香港1-中转 - V2Board
+  - 🇹🇼 台湾1-中转 - V2Board
+  - 🇯🇵 日本1-中转 - V2Board
+  - 🇺🇸 美国1-中转 - V2Board
+  - 🇬🇧 英国1-中转 - V2Board
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -74,13 +68,11 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
@@ -97,53 +89,43 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
+  - 🇭🇰 香港1-中转 - V2Board
 - name: 🇹🇼 ‍台湾
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
+  - 🇹🇼 台湾1-中转 - V2Board
 - name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id004
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
+  - 🇭🇰 香港1-中转 - V2Board
+  - 🇹🇼 台湾1-中转 - V2Board
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
+  proxies: &id005
+  - 🇯🇵 日本1-中转 - V2Board
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
+  proxies: &id006
+  - 🇺🇸 美国1-中转 - V2Board
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  proxies: &id007
+  - 🇬🇧 英国1-中转 - V2Board
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
@@ -153,28 +135,21 @@ proxy-groups:
 - name: 👆🏻🇨🇳 ‍中国
   type: select
   proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  proxies: *id005
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  proxies: *id006
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
+  proxies: *id007
 proxies:
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: fd97aba4-145b-4c6d-9800-fb9baf323c0d, udp: true}
+- {name: 🇯🇵 日本1-中转 - V2Board, server: cd.737hda.xin, port: 54339, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb0ce03-a9a3-42f9-be3f-7eacb564fe2b, udp: true}
+- {name: 🇭🇰 香港1-中转 - V2Board, server: cd.737hda.xin, port: 42655, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb0ce03-a9a3-42f9-be3f-7eacb564fe2b, udp: true}
+- {name: 🇹🇼 台湾1-中转 - V2Board, server: cd.737hda.xin, port: 2619, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb0ce03-a9a3-42f9-be3f-7eacb564fe2b, udp: true}
+- {name: 🇺🇸 美国1-中转 - V2Board, server: cd.737hda.xin, port: 22294, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb0ce03-a9a3-42f9-be3f-7eacb564fe2b, udp: true}
+- {name: 🇬🇧 英国1-中转 - V2Board, server: cd.737hda.xin, port: 55066, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb0ce03-a9a3-42f9-be3f-7eacb564fe2b, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
