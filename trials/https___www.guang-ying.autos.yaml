@@ -145,11 +145,11 @@ proxy-groups:
   type: select
   proxies: *id007
 proxies:
-- {name: 🇯🇵 日本1-中转 - V2Board, server: cd.737hda.xin, port: 54339, type: ss, cipher: chacha20-ietf-poly1305, password: a1696139-fa17-401e-870f-7b92633a10c5, udp: true}
-- {name: 🇭🇰 香港1-中转 - V2Board, server: cd.737hda.xin, port: 42655, type: ss, cipher: chacha20-ietf-poly1305, password: a1696139-fa17-401e-870f-7b92633a10c5, udp: true}
-- {name: 🇹🇼 台湾1-中转 - V2Board, server: cd.737hda.xin, port: 2619, type: ss, cipher: chacha20-ietf-poly1305, password: a1696139-fa17-401e-870f-7b92633a10c5, udp: true}
-- {name: 🇺🇸 美国1-中转 - V2Board, server: cd.737hda.xin, port: 22294, type: ss, cipher: chacha20-ietf-poly1305, password: a1696139-fa17-401e-870f-7b92633a10c5, udp: true}
-- {name: 🇬🇧 英国1-中转 - V2Board, server: cd.737hda.xin, port: 55066, type: ss, cipher: chacha20-ietf-poly1305, password: a1696139-fa17-401e-870f-7b92633a10c5, udp: true}
+- {name: 🇯🇵 日本1-中转 - V2Board, server: cd.737hda.xin, port: 54339, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b293a-1291-4499-bac8-b36e6209563a, udp: true}
+- {name: 🇭🇰 香港1-中转 - V2Board, server: cd.737hda.xin, port: 42655, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b293a-1291-4499-bac8-b36e6209563a, udp: true}
+- {name: 🇹🇼 台湾1-中转 - V2Board, server: cd.737hda.xin, port: 2619, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b293a-1291-4499-bac8-b36e6209563a, udp: true}
+- {name: 🇺🇸 美国1-中转 - V2Board, server: cd.737hda.xin, port: 22294, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b293a-1291-4499-bac8-b36e6209563a, udp: true}
+- {name: 🇬🇧 英国1-中转 - V2Board, server: cd.737hda.xin, port: 55066, type: ss, cipher: chacha20-ietf-poly1305, password: 0f4b293a-1291-4499-bac8-b36e6209563a, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
