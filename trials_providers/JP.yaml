@@ -1,17 +1,20 @@
 %YAML 1.1
 ---
 proxies:
-- &id003 {name: '🇯🇵 [vip①]日本1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23611, type: vmess, uuid: f4d5c5f8-fe1a-38e3-893c-3ec3604d7bf5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id004 {name: '🇯🇵 [vip①]日本2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: f4d5c5f8-fe1a-38e3-893c-3ec3604d7bf5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id005 {name: '🇯🇵 [vip①]日本3 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23618, type: vmess, uuid: f4d5c5f8-fe1a-38e3-893c-3ec3604d7bf5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: '🇯🇵 [vip①]日本1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23611, type: vmess, uuid: 126362f9-4e2c-3d14-bf08-bd4aaa166011, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id004 {name: '🇯🇵 [vip①]日本2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: 126362f9-4e2c-3d14-bf08-bd4aaa166011, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id005 {name: '🇯🇵 [vip①]日本3 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23618, type: vmess, uuid: 126362f9-4e2c-3d14-bf08-bd4aaa166011, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34411, type: trojan, password: d2a22cd2-47d4-4bea-ab18-bd4ecc96182a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34412, type: trojan, password: d2a22cd2-47d4-4bea-ab18-bd4ecc96182a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 · 3号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 34413, type: trojan, password: d2a22cd2-47d4-4bea-ab18-bd4ecc96182a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - &id001 {name: 🇯🇵 日本NO.1 - 大师专线, server: hxa.dashuai.help, port: 45056, type: vmess, uuid: 10f1652f-ed07-4b7f-a03b-1f1f1cdaedd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: 10f1652f-ed07-4b7f-a03b-1f1f1cdaedd0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dda9cf6-8def-4686-afaa-00a487d8bc2f, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dda9cf6-8def-4686-afaa-00a487d8bc2f, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dda9cf6-8def-4686-afaa-00a487d8bc2f, udp: true}
+- *id001
+- *id002
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1b63fd66-61ac-4e64-8adc-3bd5c90b5f06, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1b63fd66-61ac-4e64-8adc-3bd5c90b5f06, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1b63fd66-61ac-4e64-8adc-3bd5c90b5f06, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 9a2b3b1f-2cb8-405a-99fb-3a421fd72455, udp: true}
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 8785266e-d176-45bd-b4d5-e37b5267ffed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 8785266e-d176-45bd-b4d5-e37b5267ffed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 8785266e-d176-45bd-b4d5-e37b5267ffed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
