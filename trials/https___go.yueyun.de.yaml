@@ -12,16 +12,10 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
@@ -33,15 +27,36 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  - 🇭🇰 香港-v6|05*0.5倍率 - 悦云
+  - 🇭🇰 香港-v6|06 - 悦云
+  - 🇭🇰 香港-v6|07 - 悦云
+  - 🇭🇰 香港-v6|08 - 悦云
+  - 🇭🇰 香港-v4|02 - 悦云
+  - 🇭🇰 香港03 - 悦云
+  - 🇯🇵 日本-v6|02 - 悦云
+  - 🇯🇵 日本-v6|04 - 悦云
+  - 🇯🇵 日本-v6|05 - 悦云
+  - 🇯🇵 日本-v6|06 - 悦云
+  - 🇯🇵 日本-v6|07 - 悦云
+  - 🇯🇵 日本01 - 悦云
+  - 🇯🇵 日本02 - 悦云
+  - 🇯🇵 日本03 - 悦云
+  - 🇺🇸 美国-v6|01 - 悦云
+  - 🇺🇸 美国01 - 悦云
+  - 🇺🇸 美国02 - 悦云
+  - 🇺🇸 美国-v6|01 - 悦云 2
+  - 🇺🇸 美国04 - 悦云
+  - 🇺🇸 美国05 - 悦云
+  - 🇺🇸 美国07 - 悦云
+  - 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|01*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|02*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|03*0.5倍率 - 悦云
+  - 🇳🇱 【荷兰05】*0.5倍率 - 悦云
+  - 🇩🇪 【德国06】*0.5倍率 - 悦云
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -62,25 +77,17 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
@@ -97,84 +104,97 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
+  - 🇭🇰 香港-v6|05*0.5倍率 - 悦云
+  - 🇭🇰 香港-v6|06 - 悦云
+  - 🇭🇰 香港-v6|07 - 悦云
+  - 🇭🇰 香港-v6|08 - 悦云
+  - 🇭🇰 香港-v4|02 - 悦云
+  - 🇭🇰 香港03 - 悦云
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
+  proxies: &id003
+  - 🇯🇵 日本-v6|02 - 悦云
+  - 🇯🇵 日本-v6|04 - 悦云
+  - 🇯🇵 日本-v6|05 - 悦云
+  - 🇯🇵 日本-v6|06 - 悦云
+  - 🇯🇵 日本-v6|07 - 悦云
+  - 🇯🇵 日本01 - 悦云
+  - 🇯🇵 日本02 - 悦云
+  - 🇯🇵 日本03 - 悦云
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
+  proxies: &id004
+  - 🇺🇸 美国-v6|01 - 悦云
+  - 🇺🇸 美国01 - 悦云
+  - 🇺🇸 美国02 - 悦云
+  - 🇺🇸 美国-v6|01 - 悦云 2
+  - 🇺🇸 美国04 - 悦云
+  - 🇺🇸 美国05 - 悦云
+  - 🇺🇸 美国07 - 悦云
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  proxies: &id005
+  - 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云
+  - 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|01*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|02*0.5倍率 - 悦云
+  - 🇩🇪 德国-v6|03*0.5倍率 - 悦云
+  - 🇳🇱 【荷兰05】*0.5倍率 - 悦云
+  - 🇩🇪 【德国06】*0.5倍率 - 悦云
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  proxies: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  proxies: *id004
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
+  proxies: *id005
 proxies:
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: dea3b163-6c2c-4052-9c38-11738d276a8a, udp: true}
+- {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国-v6|01*0.5倍率 - 悦云, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国-v6|02*0.5倍率 - 悦云, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国-v6|03*0.5倍率 - 悦云, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇳🇱 【荷兰05】*0.5倍率 - 悦云, server: nara.189.ovh, port: 10027, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 【德国06】*0.5倍率 - 悦云, server: netcp4.616626.xyz, port: 10027, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国-v6|01 - 悦云 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: cfc801e4-3196-4b49-b771-9f9e5be54284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: cfc801e4-3196-4b49-b771-9f9e5be54284, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
