@@ -1,9 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇯🇵 [vip①]日本1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23611, type: vmess, uuid: cb64987b-10c0-3709-b772-6c8710ba000a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: '🇯🇵 [vip①]日本2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: cb64987b-10c0-3709-b772-6c8710ba000a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: '🇯🇵 [vip①]日本3 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23618, type: vmess, uuid: cb64987b-10c0-3709-b772-6c8710ba000a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9a7969b4-5fd8-493a-849e-c9ed7394f56d, udp: true}
 - {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9a7969b4-5fd8-493a-849e-c9ed7394f56d, udp: true}
 - {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 9a7969b4-5fd8-493a-849e-c9ed7394f56d, udp: true}
@@ -16,6 +13,3 @@ proxies:
 - {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 238a9f53-8ff5-43d2-9f0f-393b03b48a9e, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 238a9f53-8ff5-43d2-9f0f-393b03b48a9e, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 238a9f53-8ff5-43d2-9f0f-393b03b48a9e, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id003
