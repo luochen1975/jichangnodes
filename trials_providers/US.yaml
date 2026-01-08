@@ -1,11 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: 08885cdc-420f-33df-af54-43b537c1a0c8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: 349d4ed0-b292-3bcf-a171-bdacb16cdf04, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: de33fff0-cdc0-496e-b757-d464a765e57a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: de33fff0-cdc0-496e-b757-d464a765e57a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 0a98c286-2a8c-473c-bb74-db2a11be2d37, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 6dbc55d1-35b0-4d8a-90ce-1cfcd6dacc1a, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 957ec621-a64e-489f-8ebf-b6371f061f41, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26fa29ed-4853-477b-af7f-66481d6a57e8, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26fa29ed-4853-477b-af7f-66481d6a57e8, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26fa29ed-4853-477b-af7f-66481d6a57e8, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 6ff42b7e-9835-4a1a-9dde-75a3b7ffeb4b, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
@@ -13,3 +16,5 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: ffdd2ddc-8657-46c2-8263-fc54b9ee0096, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 L1美国US02 |2X-最新地址:https://xboxapp.top - 讯飞-X, server: vm1.ifeng123.top, port: 42701, type: vmess, uuid: 3103fd01-7a4b-4a45-b668-426ba9f0b7f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id001
