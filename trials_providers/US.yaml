@@ -1,13 +1,18 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: 209e63bb-1011-3c44-977b-babe51d95402, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: 08885cdc-420f-33df-af54-43b537c1a0c8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国 · 1号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 2976aacb-3398-4ac8-ba11-499f84cddec7, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国 · 2号线 · Netflix等流媒体解锁 · ChatGPT解锁 - 北极星加速器, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 2976aacb-3398-4ac8-ba11-499f84cddec7, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 53846ef8-b2d3-4b89-9232-f799f26b635e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 75f0153b-fbfb-41e1-aa88-d6a129ac3295, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 75f0153b-fbfb-41e1-aa88-d6a129ac3295, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 75f0153b-fbfb-41e1-aa88-d6a129ac3295, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3f3be3-336a-4005-9c0d-2191ef88b3bf, udp: true}
-- {name: 🇺🇸 L1美国US02 |2X-最新地址:https://baidu888.cc - 讯飞-X, server: vm1.ifeng123.top, port: 42701, type: vmess, uuid: 3103fd01-7a4b-4a45-b668-426ba9f0b7f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- *id001
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 90c9a406-be59-4bf0-961a-8ffbfbccacb3, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: b65f4e14-1ce6-4906-8a34-ce4142280790, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: b65f4e14-1ce6-4906-8a34-ce4142280790, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: b65f4e14-1ce6-4906-8a34-ce4142280790, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 46ac3999-e05b-4faf-b3a1-0f0ad0922ef3, udp: true}
+- {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: a6ac80f1-b825-4a9d-a9af-970f7d107200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: a6ac80f1-b825-4a9d-a9af-970f7d107200, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: a6ac80f1-b825-4a9d-a9af-970f7d107200, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国-v6|01 - 悦云 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: a6ac80f1-b825-4a9d-a9af-970f7d107200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: a6ac80f1-b825-4a9d-a9af-970f7d107200, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: a6ac80f1-b825-4a9d-a9af-970f7d107200, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: a6ac80f1-b825-4a9d-a9af-970f7d107200, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
