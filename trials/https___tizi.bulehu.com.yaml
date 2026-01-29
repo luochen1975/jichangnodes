@@ -54,7 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 🇰🇷 韩国 - PCM agent, server: sk.aoyate.com, port: 443, type: vmess, uuid: 711a62ce-f889-46cc-8864-750eb172f722, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}, udp: true}
+- {name: 🇰🇷 韩国 - PCM agent, server: sk.aoyate.com, port: 443, type: vmess, uuid: 0a93da8f-8bb4-45f9-b1ad-953cc9997acc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: sk.aoyate.com, grpc-opts: {grpc-service-name: /}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
