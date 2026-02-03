@@ -49,6 +49,9 @@ proxy-groups:
   - p_All_SG
   - p_All_JP
   - p_All_US
+  - p_All_All_All_Other_Other_Other
+  - p_All_All_All_Other_Other_Other
+  - p_All_All_All_Other_Other_Other
   - p_All_CN
 - name: 👆🏻 ‍指定
   type: select
@@ -152,6 +155,9 @@ proxy-groups:
   - p_All_All_Other_Other
   - p_All_All_Other_Other
   - p_All_Other
+  - p_All_All_All_Other_Other_Other
+  - p_All_All_All_Other_Other_Other
+  - p_All_All_All_Other_Other_Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -278,6 +284,15 @@ proxy-providers:
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
     interval: 180
     path: trials_providers/p_All_US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_All_All_Other_Other_Other:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
+    interval: 180
+    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -2111,6 +2126,8 @@ rules:
 - DOMAIN-SUFFIX,makersuite.google.com,🤖 ‍AI
 - DOMAIN-SUFFIX,meta.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,mistral.ai,🤖 ‍AI
+- DOMAIN-SUFFIX,notebooklm.google,🤖 ‍AI
+- DOMAIN-SUFFIX,notebooklm.google.com,🤖 ‍AI
 - DOMAIN-SUFFIX,oaistatic.com,🤖 ‍AI
 - DOMAIN-SUFFIX,oaiusercontent.com,🤖 ‍AI
 - DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
