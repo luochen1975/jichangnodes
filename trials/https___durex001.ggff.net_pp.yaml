@@ -12,10 +12,8 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - DIRECT
   - REJECT
@@ -24,7 +22,6 @@ proxy-groups:
   tolerance: 100
   use: &id001
   - HK
-  - SG
   - JP
 - name: 👆🏻 ‍指定
   type: select
@@ -52,10 +49,8 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - ✈️ ‍起飞
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -70,40 +65,23 @@ proxy-groups:
   tolerance: 100
   use: &id002
   - HK
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 100
-  use: &id004
+  use: &id003
   - JP
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use: *id003
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id004
+  use: *id003
 proxy-providers:
   HK:
     type: http
     url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___durex001.ggff.net/HK.yaml
     interval: 180
     path: trials_providers/https___durex001.ggff.net/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___durex001.ggff.net/SG.yaml
-    interval: 180
-    path: trials_providers/https___durex001.ggff.net/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

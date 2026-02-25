@@ -12,10 +12,8 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - DIRECT
   - REJECT
@@ -26,7 +24,6 @@ proxy-groups:
   tolerance: 100
   proxies: &id001
   - 🇭🇰香港隧道1号 - DUREX001
-  - 🇸🇬新加坡隧道1号 - DUREX001
   - 🇯🇵日本隧道1号 - DUREX001
 - name: 👆🏻 ‍指定
   type: select
@@ -54,10 +51,8 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - ✈️ ‍起飞
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -74,33 +69,22 @@ proxy-groups:
   tolerance: 100
   proxies: &id002
   - 🇭🇰香港隧道1号 - DUREX001
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇸🇬新加坡隧道1号 - DUREX001
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id004
+  proxies: &id003
   - 🇯🇵日本隧道1号 - DUREX001
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id003
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id004
+  proxies: *id003
 proxies:
 - {name: 🇯🇵日本隧道1号 - DUREX001, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 39c81a26-2292-41bd-bb67-c809e618390a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp003.japansb3.ggff.net, network: ws, ws-opts: {path: /, headers: {Host: jp003.japansb3.ggff.net}}, udp: true}
 - {name: 🇭🇰香港隧道1号 - DUREX001, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 39c81a26-2292-41bd-bb67-c809e618390a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk001.nhk01.ggff.net, network: ws, ws-opts: {path: /, headers: {Host: hk001.nhk01.ggff.net}}, udp: true}
-- {name: 🇸🇬新加坡隧道1号 - DUREX001, server: sg.ok12345.ggff.net, port: 443, type: vmess, uuid: 39c81a26-2292-41bd-bb67-c809e618390a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg003.1buigujj.ggff.net, network: ws, ws-opts: {path: /, headers: {Host: sg003.1buigujj.ggff.net}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
