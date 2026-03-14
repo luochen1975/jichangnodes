@@ -1,13 +1,16 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇯🇵 日本1-G - 水晶猫, server: vegas.168qqaa.xyz, port: 16801, type: trojan, password: 8367eb0d-7314-4680-9366-5dda7da87d45, sni: hescat.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本1A-G - 水晶猫, server: 211.161.109.101, port: 16801, type: trojan, password: 8367eb0d-7314-4680-9366-5dda7da87d45, sni: hescat.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本1B-G - 水晶猫, server: 103.219.90.132, port: 16801, type: trojan, password: 8367eb0d-7314-4680-9366-5dda7da87d45, sni: hescat.com, skip-cert-verify: true, udp: true}
 - &id001 {name: '🇯🇵 [vip①]日本1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23611, type: vmess, uuid: 823b52c7-ee19-3e4f-8a32-fb37dae86962, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: '🇯🇵 [vip①]日本2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: 823b52c7-ee19-3e4f-8a32-fb37dae86962, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id003 {name: '🇯🇵 [vip①]日本3 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23618, type: vmess, uuid: 823b52c7-ee19-3e4f-8a32-fb37dae86962, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7ad1763c-6678-4cb2-8b0c-9a9dc1988872, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7ad1763c-6678-4cb2-8b0c-9a9dc1988872, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 7ad1763c-6678-4cb2-8b0c-9a9dc1988872, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 84319c01-1d6e-48f5-b0cd-76ab5ff46a88, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6a063878-fa2a-41c1-8440-c6ee351dc983, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6a063878-fa2a-41c1-8440-c6ee351dc983, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6a063878-fa2a-41c1-8440-c6ee351dc983, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: b12761ce-dcba-47e0-8a70-b079446a0d10, udp: true}
 - *id001
 - *id002
 - *id003
