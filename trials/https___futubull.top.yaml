@@ -11,12 +11,10 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇺🇸 ‍美国
+  - 🇭🇰 ‍香港
+  - 🇯🇵 ‍日本
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇯🇵 ‍日本
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -25,11 +23,11 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇺🇸 美国高速节点1 - 新云游
-  - 🇨🇳 中国联通节点1 - 新云游
+  - 🇭🇰 香港节点【1】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【2】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【3】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【4】 - FreeFlow Cloud
+  - 🇯🇵 日本节点【5】 - FreeFlow Cloud
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -49,20 +47,16 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
+  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
+  - 🇯🇵 ‍日本
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -71,47 +65,35 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇹🇼 ‍台湾
+- name: 🇭🇰 ‍香港
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-- name: 🇨🇳 ‍中国
+  - 🇭🇰 香港节点【1】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【2】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【3】 - FreeFlow Cloud
+  - 🇭🇰 香港节点【4】 - FreeFlow Cloud
+- name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇨🇳 中国联通节点1 - 新云游
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id004
-  - 🇺🇸 美国高速节点1 - 新云游
-- name: 👆🏻🇹🇼 ‍台湾
+  - 🇯🇵 日本节点【5】 - FreeFlow Cloud
+- name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇨🇳 ‍中国
+- name: 👆🏻🇯🇵 ‍日本
   type: select
   proxies: *id003
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id004
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 46cbf164-29bd-45e3-af0f-c8acd3041c43, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 46cbf164-29bd-45e3-af0f-c8acd3041c43, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 46cbf164-29bd-45e3-af0f-c8acd3041c43, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 46cbf164-29bd-45e3-af0f-c8acd3041c43, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 46cbf164-29bd-45e3-af0f-c8acd3041c43, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港节点【1】 - FreeFlow Cloud, server: 156.238.243.132, port: 30000, type: ss, cipher: aes-128-gcm, password: 1b234b7f-4452-4684-a8e5-0b5c002ba7c1, udp: true}
+- {name: 🇭🇰 香港节点【2】 - FreeFlow Cloud, server: 149.88.68.155, port: 30001, type: ss, cipher: aes-128-gcm, password: 1b234b7f-4452-4684-a8e5-0b5c002ba7c1, udp: true}
+- {name: 🇭🇰 香港节点【3】 - FreeFlow Cloud, server: 43.99.93.133, port: 30002, type: ss, cipher: aes-128-gcm, password: 1b234b7f-4452-4684-a8e5-0b5c002ba7c1, udp: true}
+- {name: 🇭🇰 香港节点【4】 - FreeFlow Cloud, server: 38.76.216.120, port: 30004, type: ss, cipher: aes-128-gcm, password: 1b234b7f-4452-4684-a8e5-0b5c002ba7c1, udp: true}
+- {name: 🇯🇵 日本节点【5】 - FreeFlow Cloud, server: 8.216.12.54, port: 30003, type: ss, cipher: aes-128-gcm, password: 1b234b7f-4452-4684-a8e5-0b5c002ba7c1, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
