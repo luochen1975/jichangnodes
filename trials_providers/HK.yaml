@@ -1,12 +1,26 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 79e8df7b-d630-32b0-a004-87c48af409fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 1e878588-87a1-4a16-910e-916d156179df, udp: true}
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: aa08455b-2d71-44e5-852b-f8d5f96a25d8, udp: true}
+- &id008 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 79e8df7b-d630-32b0-a004-87c48af409fc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 753dd505-e31d-41ff-9ef8-b132352cf6f6, udp: true}
+- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 702b202b-33df-464d-9aba-fcbf21791637, udp: true}
+- &id001 {name: 🇭🇰 入门-香港自有机房02|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23034, type: vmess, uuid: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- &id002 {name: 🇭🇰 入门-香港自有机房01|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23033, type: vmess, uuid: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- &id003 {name: 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23153, type: vmess, uuid: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- &id004 {name: 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23144, type: vmess, uuid: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- &id005 {name: 🇭🇰 香港01|直 - XiXicats, server: 295440621895954.yf.r.hy2use.net, port: 47162, type: trojan, password: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, sni: 14105xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇭🇰 香港02|直 - XiXicats, server: 295440621895954.yf.r.hy2use.net, port: 42628, type: trojan, password: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, sni: 14905xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- &id007 {name: 🇭🇰 香港03|直 - XiXicats, server: 295440621895954.yf.r.hy2use.net, port: 45158, type: trojan, password: 437a9ef5-45b7-4683-93cc-3959d27f0d7a, sni: 14617xi.r.bilibili.com, skip-cert-verify: true, udp: true}
 - *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
