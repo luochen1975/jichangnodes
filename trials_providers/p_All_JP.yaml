@@ -1,9 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇯🇵 [vip①]日本1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 4ea8d045-e8ce-38a9-b837-503e2a38894f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: '🇯🇵 [vip①]日本2 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 4ea8d045-e8ce-38a9-b837-503e2a38894f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: '🇯🇵 [vip①]日本3 - MG Network', server: 18.mamamajd.site, port: 23618, type: vmess, uuid: 4ea8d045-e8ce-38a9-b837-503e2a38894f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 33bfc56d-9700-4a99-9858-386264838dc0, udp: true}
 - {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 33bfc56d-9700-4a99-9858-386264838dc0, udp: true}
 - {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 33bfc56d-9700-4a99-9858-386264838dc0, udp: true}
@@ -11,6 +8,3 @@ proxies:
 - {name: 🇯🇵 入门-日本01|NF|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23139, type: vmess, uuid: b7e043a7-d1b1-42c9-b4e8-088c5baac725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
 - {name: 🇯🇵 日本01|直 - XiXicats, server: 587016876469196.yf.r.hy2use.net, port: 43659, type: trojan, password: b7e043a7-d1b1-42c9-b4e8-088c5baac725, sni: 14605xi.r.bilibili.com, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本02|直 - XiXicats, server: 587016876469196.yf.r.hy2use.net, port: 46061, type: trojan, password: b7e043a7-d1b1-42c9-b4e8-088c5baac725, sni: 14501xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id003
