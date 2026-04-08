@@ -1,4 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: e771025f-7410-49fe-a000-1cabdb3dbef3, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: a22f814b-5ac2-4979-9149-2c46c0f24bc9, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d330aa8c-cec3-4d45-a756-6d4001567e7a, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d330aa8c-cec3-4d45-a756-6d4001567e7a, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d330aa8c-cec3-4d45-a756-6d4001567e7a, udp: true}
+- {name: 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23019, type: vmess, uuid: f9be8013-91f2-4ab4-aaaf-717c40379b6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇺🇸 美国01|直 - XiXicats, server: 986217658991214.yf.r.hy2use.net, port: 44186, type: trojan, password: f9be8013-91f2-4ab4-aaaf-717c40379b6a, sni: 14240xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02|直 - XiXicats, server: 986217658991214.yf.r.hy2use.net, port: 46853, type: trojan, password: f9be8013-91f2-4ab4-aaaf-717c40379b6a, sni: 14805xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 2c98083e-f6b4-4474-81bb-3808200859ac, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
