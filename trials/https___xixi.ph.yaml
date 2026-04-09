@@ -29,17 +29,42 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - TW
-  - SG
-  - JP
-  - US
-  - Other
+  proxies: &id001
+  - 🇭🇰 入门-香港自有机房02|V2ray - XiXicats
+  - 🇭🇰 入门-香港自有机房01|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats
+  - 🇭🇰 香港01|直 - XiXicats
+  - 🇭🇰 香港02|直 - XiXicats
+  - 🇭🇰 香港03|直 - XiXicats
+  - 🇹🇼 入门-台湾01|NF|V2ray - XiXicats
+  - 🇹🇼 台湾01|直 - XiXicats
+  - 🇸🇬 入门-新加坡OVH02|v2ray - XiXicats
+  - 🇸🇬 入门-新加坡OVH01|v2ray - XiXicats
+  - 🇸🇬 新加坡01|直 - XiXicats
+  - 🇸🇬 新加坡02|直 - XiXicats
+  - 🇯🇵 入门-日本02|NF|v2ray - XiXicats
+  - 🇯🇵 入门-日本01|NF|v2ray - XiXicats
+  - 🇯🇵 日本01|直 - XiXicats
+  - 🇯🇵 日本02|直 - XiXicats
+  - 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats
+  - 🇺🇸 美国01|直 - XiXicats
+  - 🇺🇸 美国02|直 - XiXicats
+  - ℹ️ 回家页:https://xixi61.net  - XiXicats
+  - 🇲🇾 入门-马来西亚|GPT|v2ray - XiXicats
+  - 🇰🇷 入门-韩国02|NF|V2ray - XiXicats
+  - 🇰🇷 入门-韩国01|NF|V2ray - XiXicats
+  - 🇫🇷 入门-法国01|V2ray - XiXicats
+  - 🇫🇷 法国01|直 - XiXicats
+  - 🇰🇷 韩国01|直 - XiXicats
+  - 🇰🇷 韩国02|直 - XiXicats
+  - 🇲🇾 马来西亚01|直 - XiXicats
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -88,116 +113,135 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - HK
+  proxies: &id002
+  - 🇭🇰 入门-香港自有机房02|V2ray - XiXicats
+  - 🇭🇰 入门-香港自有机房01|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats
+  - 🇭🇰 香港01|直 - XiXicats
+  - 🇭🇰 香港02|直 - XiXicats
+  - 🇭🇰 香港03|直 - XiXicats
 - name: 🇹🇼 ‍台湾
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id003
-  - TW
+  proxies: &id003
+  - 🇹🇼 入门-台湾01|NF|V2ray - XiXicats
+  - 🇹🇼 台湾01|直 - XiXicats
 - name: 🇨🇳 ‍中国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id004
-  - HK
-  - TW
+  proxies: &id004
+  - 🇭🇰 入门-香港自有机房02|V2ray - XiXicats
+  - 🇭🇰 入门-香港自有机房01|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats
+  - 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats
+  - 🇭🇰 香港01|直 - XiXicats
+  - 🇭🇰 香港02|直 - XiXicats
+  - 🇭🇰 香港03|直 - XiXicats
+  - 🇹🇼 入门-台湾01|NF|V2ray - XiXicats
+  - 🇹🇼 台湾01|直 - XiXicats
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id005
-  - SG
+  proxies: &id005
+  - 🇸🇬 入门-新加坡OVH02|v2ray - XiXicats
+  - 🇸🇬 入门-新加坡OVH01|v2ray - XiXicats
+  - 🇸🇬 新加坡01|直 - XiXicats
+  - 🇸🇬 新加坡02|直 - XiXicats
 - name: 🇯🇵 ‍日本
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id006
-  - JP
+  proxies: &id006
+  - 🇯🇵 入门-日本02|NF|v2ray - XiXicats
+  - 🇯🇵 入门-日本01|NF|v2ray - XiXicats
+  - 🇯🇵 日本01|直 - XiXicats
+  - 🇯🇵 日本02|直 - XiXicats
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id007
-  - US
+  proxies: &id007
+  - 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats
+  - 🇺🇸 美国01|直 - XiXicats
+  - 🇺🇸 美国02|直 - XiXicats
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id008
-  - Other
+  proxies: &id008
+  - ℹ️ 回家页:https://xixi61.net  - XiXicats
+  - 🇲🇾 入门-马来西亚|GPT|v2ray - XiXicats
+  - 🇰🇷 入门-韩国02|NF|V2ray - XiXicats
+  - 🇰🇷 入门-韩国01|NF|V2ray - XiXicats
+  - 🇫🇷 入门-法国01|V2ray - XiXicats
+  - 🇫🇷 法国01|直 - XiXicats
+  - 🇰🇷 韩国01|直 - XiXicats
+  - 🇰🇷 韩国02|直 - XiXicats
+  - 🇲🇾 马来西亚01|直 - XiXicats
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
+  proxies: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  use: *id003
+  proxies: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  use: *id004
+  proxies: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id005
+  proxies: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id006
+  proxies: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  proxies: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/HK.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  TW:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/TW.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/SG.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/JP.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/US.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/Other.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id008
+proxies:
+- {name: ℹ️ 回家页:https://xixi61.net  - XiXicats, server: xixi.ewddns.net, port: 8888, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇲🇾 入门-马来西亚|GPT|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23013, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇭🇰 入门-香港自有机房02|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23034, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇭🇰 入门-香港自有机房01|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23033, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23153, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23144, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇰🇷 入门-韩国02|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 10442, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇰🇷 入门-韩国01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23156, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23019, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇫🇷 入门-法国01|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23147, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇯🇵 入门-日本02|NF|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23048, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇯🇵 入门-日本01|NF|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23139, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇸🇬 入门-新加坡OVH02|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23912, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇸🇬 入门-新加坡OVH01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 29020, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇹🇼 入门-台湾01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23038, type: vmess, uuid: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- {name: 🇹🇼 台湾01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 46421, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14408xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 41043, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14242xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡02|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 46142, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14260xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 49001, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14605xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 44080, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14501xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 40029, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14705xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 44457, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14240xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 47662, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14805xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 43920, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14418xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国02|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 42968, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14446xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 46639, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14105xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港02|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 46998, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14905xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 47361, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14617xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- {name: 🇲🇾 马来西亚01|直 - XiXicats, server: 953225902055347.yf.r.hy2use.net, port: 48873, type: trojan, password: 2c2f31d1-24a8-49e1-a014-049a5bc6b1dc, sni: 14262xi.r.bilibili.com, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
