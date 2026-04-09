@@ -1,33 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: e3d49bf7-0c41-3f6a-824e-42cd8a45edd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: e3d49bf7-0c41-3f6a-824e-42cd8a45edd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 25663e87-2a84-4c5d-8fb2-f7588f347453, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 25663e87-2a84-4c5d-8fb2-f7588f347453, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 25663e87-2a84-4c5d-8fb2-f7588f347453, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 25663e87-2a84-4c5d-8fb2-f7588f347453, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- &id001 {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 4ea8d045-e8ce-38a9-b837-503e2a38894f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 4ea8d045-e8ce-38a9-b837-503e2a38894f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 52a6e589-f9a5-47fa-8fe4-a34a167ec421, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 52a6e589-f9a5-47fa-8fe4-a34a167ec421, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 52a6e589-f9a5-47fa-8fe4-a34a167ec421, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 52a6e589-f9a5-47fa-8fe4-a34a167ec421, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- &id003 {name: 🇭🇰 入门-香港自有机房02|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23034, type: vmess, uuid: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id004 {name: 🇭🇰 入门-香港自有机房01|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23033, type: vmess, uuid: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id005 {name: 🇭🇰 入门-香港HKT02|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23153, type: vmess, uuid: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id006 {name: 🇭🇰 入门-香港HKT01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23144, type: vmess, uuid: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id007 {name: 🇹🇼 入门-台湾01|NF|V2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23038, type: vmess, uuid: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id008 {name: 🇹🇼 台湾01|直 - XiXicats, server: 942889836120430.yf.r.hy2use.net, port: 43404, type: trojan, password: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, sni: 14408xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- &id009 {name: 🇭🇰 香港01|直 - XiXicats, server: 942889836120430.yf.r.hy2use.net, port: 47731, type: trojan, password: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, sni: 14105xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- &id010 {name: 🇭🇰 香港02|直 - XiXicats, server: 942889836120430.yf.r.hy2use.net, port: 49574, type: trojan, password: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, sni: 14905xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇭🇰 香港03|直 - XiXicats, server: 942889836120430.yf.r.hy2use.net, port: 41528, type: trojan, password: b8d0aac0-8dc8-40e4-9b3d-b3df1fea01e8, sni: 14617xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港代理01 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理01 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港代理02 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾代理02 - 美心TG, server: hkt.karyl.cc, port: 40604, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- *id009
-- *id010
-- *id011
