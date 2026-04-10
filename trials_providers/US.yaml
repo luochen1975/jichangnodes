@@ -1,15 +1,12 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: de3b2e8f-a80e-4d1e-be0d-31aa03ba13df, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: de3b2e8f-a80e-4d1e-be0d-31aa03ba13df, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: de3b2e8f-a80e-4d1e-be0d-31aa03ba13df, udp: true}
 - &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: e3d49bf7-0c41-3f6a-824e-42cd8a45edd3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: c0754830-2e7b-48f3-984d-c1d5d998734c, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 78f4f1ed-e32d-4b6e-a6e8-5ad8602880d0, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id001
-- &id002 {name: 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23019, type: vmess, uuid: ee2c9580-3402-40e4-9ed6-51465dff13e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id003 {name: 🇺🇸 美国01|直 - XiXicats, server: 745592519792355.yf.r.hy2use.net, port: 40336, type: trojan, password: ee2c9580-3402-40e4-9ed6-51465dff13e0, sni: 14240xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇺🇸 美国02|直 - XiXicats, server: 745592519792355.yf.r.hy2use.net, port: 49681, type: trojan, password: ee2c9580-3402-40e4-9ed6-51465dff13e0, sni: 14805xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23019, type: vmess, uuid: bed5d094-122b-4c52-b5e9-041040c9f3c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
+- &id003 {name: 🇺🇸 美国01|直 - XiXicats, server: 572695397333191.yf.r.hy2use.net, port: 46465, type: trojan, password: bed5d094-122b-4c52-b5e9-041040c9f3c2, sni: 14240xi.r.bilibili.com, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇺🇸 美国02|直 - XiXicats, server: 572695397333191.yf.r.hy2use.net, port: 48411, type: trojan, password: bed5d094-122b-4c52-b5e9-041040c9f3c2, sni: 14805xi.r.bilibili.com, skip-cert-verify: true, udp: true}
 - *id002
 - *id003
 - *id004
