@@ -1,15 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad74a81-2a74-4757-ba2c-ed6e688cce71, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad74a81-2a74-4757-ba2c-ed6e688cce71, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cad74a81-2a74-4757-ba2c-ed6e688cce71, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4003e740-f35b-4d86-a23a-0a20e02fbefc, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4003e740-f35b-4d86-a23a-0a20e02fbefc, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4003e740-f35b-4d86-a23a-0a20e02fbefc, udp: true}
 - &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: b4279314-fe7b-3c59-b54b-53e1d8fd2a84, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 7f344a9a-ef75-453c-9056-e39c00ada264, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 4cfe392f-eec9-44f6-b798-562b33b5a847, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id001
-- &id002 {name: 🇺🇸 入门-美国洛杉矶01|v2ray - XiXicats, server: v3.cdn.qqws1rrgrm.ewddns.net, port: 23019, type: vmess, uuid: c6e46acd-59d5-4b32-895c-3b467154ebc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
-- &id003 {name: 🇺🇸 美国01|直 - XiXicats, server: 298260055156238.yf.r.hy2use.net, port: 48947, type: trojan, password: c6e46acd-59d5-4b32-895c-3b467154ebc1, sni: 14240xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇺🇸 美国02|直 - XiXicats, server: 298260055156238.yf.r.hy2use.net, port: 47468, type: trojan, password: c6e46acd-59d5-4b32-895c-3b467154ebc1, sni: 14805xi.r.bilibili.com, skip-cert-verify: true, udp: true}
-- *id002
-- *id003
-- *id004
