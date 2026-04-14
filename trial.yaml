@@ -58,12 +58,17 @@ proxy-groups:
   - 🇯🇵 [vip①]日本3 - MG Network
   - 🇺🇸 [vip①]美国1 - MG Network
   - 🇺🇸 [vip①]美国1 - MG Network
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇹🇼 台湾代理01 - 美心TG
+  - 🇹🇼 台湾代理02 - 美心TG
+  - 🇺🇸 美国高速节点1 - 新云游
+  - 🇨🇳 中国联通节点1 - 新云游
   - 🇭🇰 香港代理01 - 美心TG
   - 🇭🇰 香港代理02 - 美心TG
   - 🇸🇬 新加坡代理01 - 美心TG
   - 🇸🇬 新加坡代理02 - 美心TG
-  - 🇹🇼 台湾代理01 - 美心TG
-  - 🇹🇼 台湾代理02 - 美心TG
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -131,6 +136,9 @@ proxy-groups:
   proxies: &id003
   - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
   - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
   - 🇹🇼 台湾代理01 - 美心TG
   - 🇹🇼 台湾代理02 - 美心TG
 - name: 🇨🇳 ‍中国
@@ -143,10 +151,14 @@ proxy-groups:
   - 🇭🇰 [vip①]①香港 - MG Network
   - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
   - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
-  - 🇭🇰 香港代理01 - 美心TG
-  - 🇭🇰 香港代理02 - 美心TG
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
   - 🇹🇼 台湾代理01 - 美心TG
   - 🇹🇼 台湾代理02 - 美心TG
+  - 🇨🇳 中国联通节点1 - 新云游
+  - 🇭🇰 香港代理01 - 美心TG
+  - 🇭🇰 香港代理02 - 美心TG
 - name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -179,6 +191,7 @@ proxy-groups:
   proxies: &id007
   - 🇺🇸 [vip①]美国1 - MG Network
   - 🇺🇸 [vip①]美国1 - MG Network
+  - 🇺🇸 美国高速节点1 - 新云游
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -228,6 +241,11 @@ proxies:
 - {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 6b91d70e-503d-3448-9b38-17a0591043fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 6b91d70e-503d-3448-9b38-17a0591043fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 6b91d70e-503d-3448-9b38-17a0591043fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 2851b009-661c-4380-80ca-f4d71f5325f4, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 2851b009-661c-4380-80ca-f4d71f5325f4, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 2851b009-661c-4380-80ca-f4d71f5325f4, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 2851b009-661c-4380-80ca-f4d71f5325f4, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 2851b009-661c-4380-80ca-f4d71f5325f4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡代理01 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡代理02 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港代理01 - 美心TG, server: hkt.karyl.cc, port: 40404, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
