@@ -1,9 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ea45b720-d663-4cec-8105-5b11c3dd03cb, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ea45b720-d663-4cec-8105-5b11c3dd03cb, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ea45b720-d663-4cec-8105-5b11c3dd03cb, udp: true}
 - &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 6b91d70e-503d-3448-9b38-17a0591043fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 16534547-e805-4765-be7a-cbe33d4b62a4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id001
