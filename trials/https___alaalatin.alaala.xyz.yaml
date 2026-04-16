@@ -55,8 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: 1024-wss - V2Board, server: akile-jp-002.alaala.xyz, port: 443, type: vmess, uuid: e078f683-1fad-4d68-8f16-144e609ca922, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: akile-jp-002.alaala.xyz, network: ws, ws-opts: {path: /9f5e52, headers: {Host: akile-jp-002.alaala.xyz}}, udp: true}
-- {name: 1024-wss - V2Board 2, server: akile-hk-001.alaala.xyz, port: 443, type: vmess, uuid: e078f683-1fad-4d68-8f16-144e609ca922, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: akile-hk-001.alaala.xyz, network: ws, ws-opts: {path: /f59618, headers: {Host: akile-hk-001.alaala.xyz}}, udp: true}
+- {name: 1024-wss - V2Board, server: akile-jp-002.alaala.xyz, port: 443, type: vmess, uuid: e79e8d5a-cdc2-47fc-998d-bcf8fc60de46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: akile-jp-002.alaala.xyz, network: ws, ws-opts: {path: /9f5e52, headers: {Host: akile-jp-002.alaala.xyz}}, udp: true}
+- {name: 1024-wss - V2Board 2, server: akile-hk-001.alaala.xyz, port: 443, type: vmess, uuid: e79e8d5a-cdc2-47fc-998d-bcf8fc60de46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: akile-hk-001.alaala.xyz, network: ws, ws-opts: {path: /f59618, headers: {Host: akile-hk-001.alaala.xyz}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
