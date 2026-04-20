@@ -15,12 +15,14 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - All
+  proxies: &id001
+  - ℹ️ 回家页:https://xixi61.net  - XiXicats
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -51,16 +53,8 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxy-providers:
-  All:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___xixicats.pw/All.yaml
-    interval: 180
-    path: trials_providers/https___xixicats.pw/All.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: ℹ️ 回家页:https://xixi61.net  - XiXicats, server: xixi.ewddns.net, port: 8888, type: vmess, uuid: 5d5a3ddd-7e38-45c8-8e00-ec612c456607, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /87751ff2-222a-477b-8bec-60a13527f24c.live238.m3u8, headers: {Host: www.baidu.com}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
