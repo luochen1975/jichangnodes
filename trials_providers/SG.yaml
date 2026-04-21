@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 18ec6ade-4a19-3710-952e-cd9a5c26d122, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: '🇸🇬 [vip①]新加坡2 - MG Network', server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 18ec6ade-4a19-3710-952e-cd9a5c26d122, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
 - {name: 🇸🇬 新加坡代理01 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
 - {name: 🇸🇬 新加坡代理02 - 美心TG, server: hkt.karyl.cc, port: 40504, type: socks5, username: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, password: 85a0ccb2-6f16-4cd8-9f40-24cdc0a2b867, skip-cert-verify: true, udp: true}
+- &id001 {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 38c8196f-63ca-31eb-8255-b8e1fe900d27, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: '🇸🇬 [vip①]新加坡2 - MG Network', server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 38c8196f-63ca-31eb-8255-b8e1fe900d27, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
