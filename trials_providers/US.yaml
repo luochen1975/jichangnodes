@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 5bcac8fc-5887-4b64-b4b8-e37e6e74a11d, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - &id001 {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 38c8196f-63ca-31eb-8255-b8e1fe900d27, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 61810254-5a80-41ad-80e8-292d80c63517, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id001
