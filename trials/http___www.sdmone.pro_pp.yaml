@@ -15,17 +15,12 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版
-  - ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版
-  - ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版
-  - 也可退出后重新登录 - 蜂鸟畅享版
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -56,11 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies:
-- {name: ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: 也可退出后重新登录 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc-ba7f, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/http___www.sdmone.pro/All.yaml
+    interval: 180
+    path: trials_providers/http___www.sdmone.pro/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
