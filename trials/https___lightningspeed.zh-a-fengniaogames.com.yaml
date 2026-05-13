@@ -11,35 +11,21 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - TW
-  - SG
-  - JP
-  - US
-  - Other
+  proxies: &id001
+  - ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版
+  - ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版
+  - ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版
+  - 也可退出后重新登录 - 蜂鸟畅享版
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -56,28 +42,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -86,118 +56,11 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - HK
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - TW
-- name: 🇨🇳 ‍中国
-  type: url-test
-  tolerance: 100
-  use: &id004
-  - HK
-  - TW
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 100
-  use: &id005
-  - SG
-- name: 🇯🇵 ‍日本
-  type: url-test
-  tolerance: 100
-  use: &id006
-  - JP
-- name: 🇺🇸 ‍美国
-  type: url-test
-  tolerance: 300
-  use: &id007
-  - US
-- name: 🎏 ‍其他
-  type: url-test
-  tolerance: 100
-  use: &id008
-  - Other
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  use: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  use: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  use: *id006
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  use: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  use: *id008
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/HK.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  TW:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/TW.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/SG.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/JP.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/US.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___best.nxxbbf.com/Other.yaml
-    interval: 180
-    path: trials_providers/https___best.nxxbbf.com/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
+- {name: ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
+- {name: ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
+- {name: 也可退出后重新登录 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc-ba7f, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
