@@ -1,35 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 7472b54a-781b-4579-b591-9a490c2a5cdb, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 7472b54a-781b-4579-b591-9a490c2a5cdb, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 7472b54a-781b-4579-b591-9a490c2a5cdb, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 7472b54a-781b-4579-b591-9a490c2a5cdb, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - &id001 {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 2a2d4840-6922-392b-835f-276cba1d6da8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 2a2d4840-6922-392b-835f-276cba1d6da8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 xiake~专线-台湾030d2f5366 - 侠客VPN, server: 64.49.44.197, port: 3722, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港05b4473a46 - 侠客VPN, server: 64.49.44.197, port: 2825, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港05-IPV6b0287fc3 - 侠客VPN, server: 2a0e:97c0:3f0:1::27a7, port: 41389, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港04-IPV625df4e39 - 侠客VPN, server: 2a0e:97c0:3f0:1::27a7, port: 56902, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港12-家宽X15461b78f - 侠客VPN, server: 64.49.44.197, port: 54909, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港080cf9659c - 侠客VPN, server: 64.49.44.197, port: 55132, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇹🇼 xiake~专线-台湾0295608b15 - 侠客VPN, server: 64.49.44.197, port: 38071, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港1046d6f8d8 - 侠客VPN, server: 64.49.44.197, port: 22522, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港09d3901e39 - 侠客VPN, server: 64.49.44.197, port: 19599, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港076ed03ed7 - 侠客VPN, server: 64.49.44.197, port: 39926, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港01-IPV6f2ebd9f7 - 侠客VPN, server: 2a0e:97c0:3f0:1::27a7, port: 4024, type: ss, cipher: aes-256-gcm, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇹🇼 xiake~专线-台湾01a34b0799 - 侠客VPN, server: 64.49.44.197, port: 3309, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港01a9e64760 - 侠客VPN, server: 64.49.44.197, port: 7992, type: ss, cipher: aes-256-gcm, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港06857d2252 - 侠客VPN, server: 64.49.44.197, port: 36730, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港13-家宽X19879ace3 - 侠客VPN, server: 64.49.44.197, port: 23114, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~香港03×240c42b16 - 侠客VPN, server: 141.11.77.221, port: 6909, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港03-IPV69024fde7 - 侠客VPN, server: 2a0e:97c0:3f0:1::27a7, port: 32407, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇹🇼 xiake~专线-台湾042e791e8f - 侠客VPN, server: 64.49.44.197, port: 6849, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港04-家宽X15b6c6ed0 - 侠客VPN, server: 64.49.44.197, port: 43631, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港03-家宽X1af06028b - 侠客VPN, server: 64.49.44.197, port: 48166, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~香港04×274993b2e - 侠客VPN, server: 141.11.77.221, port: 12821, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~香港05×2（家宽）ae49205b - 侠客VPN, server: 141.11.77.221, port: 23931, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇲🇴 xiake~专线-澳门01074d9211 - 侠客VPN, server: 64.49.44.197, port: 13409, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
-- {name: 🇭🇰 xiake~专线-香港02-IPV62159e88b - 侠客VPN, server: 2a0e:97c0:3f0:1::27a7, port: 57401, type: ss, cipher: chacha20-ietf-poly1305, password: 8e265e8e-2043-4ad1-b970-4cd299cc369b, udp: true}
 - *id001
 - *id002
