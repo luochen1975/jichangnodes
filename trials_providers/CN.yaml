@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 88c84c3c-2165-4490-a2ae-56d21317e411, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 564e2088-eb37-4f2e-b9a2-3d3ec905e44e, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 564e2088-eb37-4f2e-b9a2-3d3ec905e44e, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 564e2088-eb37-4f2e-b9a2-3d3ec905e44e, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 564e2088-eb37-4f2e-b9a2-3d3ec905e44e, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - &id001 {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 2a2d4840-6922-392b-835f-276cba1d6da8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 2a2d4840-6922-392b-835f-276cba1d6da8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
