@@ -1,17 +1,16 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 20aa40a2-6c80-4286-81c3-e323317d6ca9, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 20aa40a2-6c80-4286-81c3-e323317d6ca9, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 20aa40a2-6c80-4286-81c3-e323317d6ca9, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 20aa40a2-6c80-4286-81c3-e323317d6ca9, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 20aa40a2-6c80-4286-81c3-e323317d6ca9, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 490dafa7-6141-451c-a4e3-f698b3a0fbea, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 490dafa7-6141-451c-a4e3-f698b3a0fbea, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 490dafa7-6141-451c-a4e3-f698b3a0fbea, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 490dafa7-6141-451c-a4e3-f698b3a0fbea, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 490dafa7-6141-451c-a4e3-f698b3a0fbea, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
 - {name: ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
 - {name: ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
 - {name: 也可退出后重新登录 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc-ba7f, udp: true}
 - {name: 🇯🇵 日本2 - 云通, server: jp2.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 259aa0719bc1a56dfb6ff00d332dadaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
-- {name: 🇦🇺 澳大利亚1 - 云通, server: au1.yuntong.click, port: 30015, type: ssr, cipher: aes-256-cfb, password: 1955002d262ffdd5c3f321379454b98f, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
 - {name: 🇭🇰 香港1 - 云通, server: hk1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 114c7577963b0d49f4b5c97be4bb9dfe, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇺🇸 美国1 - 云通, server: us1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 67550073ca2ad24fe18d326301ae4eaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇭🇰 香港2 - 云通, server: hk2.yuntong.click, port: 30016, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
