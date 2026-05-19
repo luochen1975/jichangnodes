@@ -31,28 +31,12 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - p_All_TW_CN
-  - p_All_US
-  - p_All_CN
-  - p_All_Other
-  - p_All_JP
-  - p_All_HK_CN
-  - p_All_SG
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_All_US_US
-  - p_All_All_US_US
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -106,58 +90,38 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id002
-  - p_All_HK_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
   tolerance: 100
   use: &id003
-  - p_All_TW_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
   tolerance: 100
   use: &id004
-  - p_All_TW_CN
-  - p_All_CN
-  - p_All_HK_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
   tolerance: 100
   use: &id005
-  - p_All_SG
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 100
   use: &id006
-  - p_All_JP
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
   use: &id007
-  - p_All_US
-  - p_All_All_US_US
-  - p_All_All_US_US
+  - US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
   use: &id008
-  - p_All_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -180,128 +144,56 @@ proxy-groups:
   type: select
   use: *id008
 proxy-providers:
-  p_All_TW_CN:
+  HK:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/HK.yaml
     interval: 180
-    path: trials_providers/p_All_TW_CN.yaml
+    path: trials_providers/https___yuntong.org/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_US:
+  TW:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/TW.yaml
     interval: 180
-    path: trials_providers/p_All_US.yaml
+    path: trials_providers/https___yuntong.org/TW.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_CN:
+  SG:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_CN.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/SG.yaml
     interval: 180
-    path: trials_providers/p_All_CN.yaml
+    path: trials_providers/https___yuntong.org/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_Other:
+  JP:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_Other.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/JP.yaml
     interval: 180
-    path: trials_providers/p_All_Other.yaml
+    path: trials_providers/https___yuntong.org/JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_JP:
+  US:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_JP.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/US.yaml
     interval: 180
-    path: trials_providers/p_All_JP.yaml
+    path: trials_providers/https___yuntong.org/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_HK_CN:
+  Other:
     type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___yuntong.org/Other.yaml
     interval: 180
-    path: trials_providers/p_All_HK_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_HK_HK_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_TW_TW_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_SG_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_SG_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_All_SG_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_JP_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_JP_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_All_JP_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_US_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
-    interval: 180
-    path: trials_providers/p_All_All_US_US.yaml
+    path: trials_providers/https___yuntong.org/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

@@ -1,6 +1,7 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇸🇬 新加坡1 - 云通, server: sg1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 30b3d58b97f9a377ce1468d6a3e39c28, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - &id001 {name: '🇸🇬 [vip①]新加坡1|低倍率 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: a43b4021-5fd8-3246-9041-f204add535d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: '🇸🇬 [vip①]新加坡2|低倍率 - MG Network', server: 13.mamamajd.site, port: 23613, type: vmess, uuid: a43b4021-5fd8-3246-9041-f204add535d2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001

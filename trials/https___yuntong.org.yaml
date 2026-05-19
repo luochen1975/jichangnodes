@@ -29,33 +29,35 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - p_All_TW_CN
-  - p_All_US
-  - p_All_CN
-  - p_All_Other
-  - p_All_JP
-  - p_All_HK_CN
-  - p_All_SG
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_All_US_US
-  - p_All_All_US_US
+  proxies: &id001
+  - 🇭🇰 香港1 - 云通
+  - 🇭🇰 香港2 - 云通
+  - 🇹🇼 台北1 - 云通
+  - 🇸🇬 新加坡1 - 云通
+  - 🇯🇵 日本2 - 云通
+  - 🇯🇵 日本1 - 云通
+  - 🇺🇸 美国1 - 云通
+  - 🇦🇺 澳大利亚1 - 云通
+  - 🇲🇾 吉隆坡1 - 云通
+  - 🇩🇪 法兰克福1 - 云通
+  - 🇦🇪 迪拜1 - 云通
+  - 🇦🇷 阿根廷1 - 云通
+  - 🇹🇷 土耳其1 - 云通
+  - 🇬🇧 伦敦1 - 云通
+  - 🇰🇷 韩国1 - 云通
+  - 🇰🇭 柬埔寨1 - 云通
+  - 🇻🇳 越南1 - 云通
+  - 🇹🇭 泰国1 - 云通
+  - 🇿🇦 南非1 - 云通
+  - 🇧🇷 巴西1 - 云通
+  - 🇵🇭 菲律宾1 - 云通
+  - 🇨🇦 加拿大1 - 云通
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -104,208 +106,115 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - p_All_HK_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
+  proxies: &id002
+  - 🇭🇰 香港1 - 云通
+  - 🇭🇰 香港2 - 云通
 - name: 🇹🇼 ‍台湾
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id003
-  - p_All_TW_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
+  proxies: &id003
+  - 🇹🇼 台北1 - 云通
 - name: 🇨🇳 ‍中国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id004
-  - p_All_TW_CN
-  - p_All_CN
-  - p_All_HK_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
+  proxies: &id004
+  - 🇭🇰 香港1 - 云通
+  - 🇭🇰 香港2 - 云通
+  - 🇹🇼 台北1 - 云通
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id005
-  - p_All_SG
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
+  proxies: &id005
+  - 🇸🇬 新加坡1 - 云通
 - name: 🇯🇵 ‍日本
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id006
-  - p_All_JP
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
+  proxies: &id006
+  - 🇯🇵 日本2 - 云通
+  - 🇯🇵 日本1 - 云通
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id007
-  - p_All_US
-  - p_All_All_US_US
-  - p_All_All_US_US
+  proxies: &id007
+  - 🇺🇸 美国1 - 云通
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id008
-  - p_All_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
+  proxies: &id008
+  - 🇦🇺 澳大利亚1 - 云通
+  - 🇲🇾 吉隆坡1 - 云通
+  - 🇩🇪 法兰克福1 - 云通
+  - 🇦🇪 迪拜1 - 云通
+  - 🇦🇷 阿根廷1 - 云通
+  - 🇹🇷 土耳其1 - 云通
+  - 🇬🇧 伦敦1 - 云通
+  - 🇰🇷 韩国1 - 云通
+  - 🇰🇭 柬埔寨1 - 云通
+  - 🇻🇳 越南1 - 云通
+  - 🇹🇭 泰国1 - 云通
+  - 🇿🇦 南非1 - 云通
+  - 🇧🇷 巴西1 - 云通
+  - 🇵🇭 菲律宾1 - 云通
+  - 🇨🇦 加拿大1 - 云通
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
+  proxies: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  use: *id003
+  proxies: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  use: *id004
+  proxies: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id005
+  proxies: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id006
+  proxies: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  proxies: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
-proxy-providers:
-  p_All_TW_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_TW_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_TW_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_HK_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_HK_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_HK_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_HK_HK_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_HK_HK_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_TW_TW_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_SG_SG:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_SG_SG.yaml
-    interval: 180
-    path: trials_providers/p_All_All_SG_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_JP_JP:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_JP_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_All_JP_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_US_US:
-    type: http
-    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/p_All_All_US_US.yaml
-    interval: 180
-    path: trials_providers/p_All_All_US_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id008
+proxies:
+- {name: 🇯🇵 日本2 - 云通, server: jp2.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 259aa0719bc1a56dfb6ff00d332dadaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇦🇺 澳大利亚1 - 云通, server: au1.yuntong.click, port: 30015, type: ssr, cipher: aes-256-cfb, password: 1955002d262ffdd5c3f321379454b98f, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
+- {name: 🇭🇰 香港1 - 云通, server: hk1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 114c7577963b0d49f4b5c97be4bb9dfe, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇺🇸 美国1 - 云通, server: us1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 67550073ca2ad24fe18d326301ae4eaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇭🇰 香港2 - 云通, server: hk2.yuntong.click, port: 30016, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇹🇼 台北1 - 云通, server: tw1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 9a51236ed51b1640755ae5e49b7c4841, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇯🇵 日本1 - 云通, server: jp1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 9707889c9820a89af23908aefa3abb5c, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇲🇾 吉隆坡1 - 云通, server: kl1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 0ffb68b177f107e12320aaa4df4d6d33, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇩🇪 法兰克福1 - 云通, server: ff1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 1a16ba0eb085bf18dd1424454cfe270b, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇦🇪 迪拜1 - 云通, server: db1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 0f8c7160c988ac10a8ca484085481382, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇦🇷 阿根廷1 - 云通, server: ar1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 3476e15138c095386099cd18e0e461bc, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇹🇷 土耳其1 - 云通, server: tr1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 2764b0c64f65a33c5cb5098d19e5ceae, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇬🇧 伦敦1 - 云通, server: uk1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 67aaec27b4679800a708ca7178a1034d, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇸🇬 新加坡1 - 云通, server: sg1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 30b3d58b97f9a377ce1468d6a3e39c28, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇰🇷 韩国1 - 云通, server: kr1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 843211e03d0c9f17459f53c0c0013597, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇰🇭 柬埔寨1 - 云通, server: kh1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: ca0eefc061412ae7b47e17049d129f73, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇻🇳 越南1 - 云通, server: vn1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: e1de83144b40dcd167494b8893c5a710, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇹🇭 泰国1 - 云通, server: th1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 4c9601d1555d47c630de2e63c404d086, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇿🇦 南非1 - 云通, server: za1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 5c7bc739963b115e52634e8bd3a22707, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇧🇷 巴西1 - 云通, server: br1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: ac05a3dbca18793fb89e1754953fc165, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇵🇭 菲律宾1 - 云通, server: ph1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 1f50a7ab4786e36f909db71cb2449e98, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇨🇦 加拿大1 - 云通, server: ca1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: c14e29d97050c87b944a5a64af8b4e9e, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
