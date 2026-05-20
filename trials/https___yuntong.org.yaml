@@ -37,6 +37,7 @@ proxy-groups:
   - 🇭🇰 香港1 - 云通
   - 🇭🇰 香港2 - 云通
   - 🇹🇼 台北1 - 云通
+  - 🇸🇬 新加坡2 - 云通
   - 🇸🇬 新加坡1 - 云通
   - 🇯🇵 日本2 - 云通
   - 🇯🇵 日本1 - 云通
@@ -138,6 +139,7 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id005
+  - 🇸🇬 新加坡2 - 云通
   - 🇸🇬 新加坡1 - 云通
 - name: 🇯🇵 ‍日本
   type: url-test
@@ -202,6 +204,7 @@ proxies:
 - {name: 🇦🇺 澳大利亚1 - 云通, server: au1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 01894626039d642abdf462ae9e1e50f1, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇭🇰 香港3 - 云通, server: hk3.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 6d714342260c289cd90f1fd501ab5a5a, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
 - {name: 🇮🇳 印度1 - 云通, server: in1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: b7a3d871bb318b5740a019599f836b32, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
+- {name: 🇸🇬 新加坡2 - 云通, server: sg2.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: f45be73a9fddb7b2d4b2c267dbbe579b, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
 - {name: 🇭🇰 香港1 - 云通, server: hk1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 114c7577963b0d49f4b5c97be4bb9dfe, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇺🇸 美国1 - 云通, server: us1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 67550073ca2ad24fe18d326301ae4eaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇭🇰 香港2 - 云通, server: hk2.yuntong.click, port: 30016, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
