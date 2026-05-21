@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: c5f1e635-ceb8-41cb-8d20-cebbe46b792b, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 4f7dc1dd-8242-4b43-ae15-fc5a9e71f2ed, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国1-CDN - 云通, server: cdn.yuntong.click, port: 2002, type: ssr, cipher: chacha20-ietf, password: 67550073ca2ad24fe18d326301ae4eaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇺🇸 美国1 - 云通, server: us1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 67550073ca2ad24fe18d326301ae4eaa, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - &id001 {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: f9b09bad-f3d4-3fde-abf5-9770be430f26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
