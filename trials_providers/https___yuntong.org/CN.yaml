@@ -1,6 +1,10 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇭🇰 香港1-CDN - 云通, server: cdn.yuntong.click, port: 2001, type: ssr, cipher: chacha20-ietf, password: 114c7577963b0d49f4b5c97be4bb9dfe, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇭🇰 香港2-CDN - 云通, server: cdn.yuntong.click, port: 2003, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇹🇼 台北1-CDN - 云通, server: cdn.yuntong.click, port: 2004, type: ssr, cipher: chacha20-ietf, password: 9a51236ed51b1640755ae5e49b7c4841, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
+- {name: 🇭🇰 香港3-CDN - 云通, server: cdn.yuntong.click, port: 2021, type: ssr, cipher: chacha20-ietf, password: 6d714342260c289cd90f1fd501ab5a5a, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇭🇰 香港3 - 云通, server: hk3.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 6d714342260c289cd90f1fd501ab5a5a, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: '', udp: true}
 - {name: 🇭🇰 香港1 - 云通, server: hk1.yuntong.click, port: 30015, type: ssr, cipher: chacha20-ietf, password: 114c7577963b0d49f4b5c97be4bb9dfe, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
 - {name: 🇭🇰 香港2 - 云通, server: hk2.yuntong.click, port: 30016, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
