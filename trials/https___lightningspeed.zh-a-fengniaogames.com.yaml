@@ -19,10 +19,7 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版
-  - ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版
-  - ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版
-  - 也可退出后重新登录 - 蜂鸟畅享版
+  - 免费限速节点 - 蜂鸟畅享版
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -57,10 +54,7 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: 也可退出后重新登录 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc-ba7f, udp: true}
+- {name: 免费限速节点 - 蜂鸟畅享版, server: 14.18.247.73, port: 12039, type: ss, cipher: chacha20-ietf-poly1305, password: c04a7448-31e6-4442-b44e-8370fed10d5c, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
