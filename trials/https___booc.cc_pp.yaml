@@ -29,70 +29,17 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 V这里是新平台 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW10 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW11[ipv6] - 拓扑门topman8848.com
-  - 🇺🇸 美国高速节点1 - 新云游
-  - 🇺🇸 V美US13[ipv6] - 拓扑门topman8848.com
-  - 🇺🇸 V美US16 - 拓扑门topman8848.com
-  - 🇺🇸 V美US17|2x - 拓扑门topman8848.com
-  - 🇺🇸 V美US18|2x - 拓扑门topman8848.com
-  - 🇺🇸 US01-06 美国 AI 流媒体 - 8号技师
-  - 🇺🇸 US02-03 测试 - 8号技师
-  - 🇨🇳 中国联通节点1 - 新云游
-  - ℹ️ 0523地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com
-  - ℹ️ 只有V节点的要换官网软件 - 拓扑门topman8848.com
-  - ℹ️ V小火箭要升级版本 - 拓扑门topman8848.com
-  - ℹ️ V最新地址【jooy.cc】 - 拓扑门topman8848.com
-  - ℹ️ V地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com
-  - 🇰🇷 V韩KR【新软件有L2节点】 - 拓扑门topman8848.com
-  - ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版
-  - ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版
-  - ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版
-  - 也可退出后重新登录 - 蜂鸟畅享版
-  - 🇭🇰 V港HK7 - 拓扑门topman8848.com
-  - 🇭🇰 V港HK12[手机流量可用]ipv6 - 拓扑门topman8848.com
-  - 🇭🇰 香港2 - 云通
-  - 🇯🇵 V日JP8【V节点默认2倍消耗流量】 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP14 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP15 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP19|10x - 拓扑门topman8848.com
-  - 🇸🇬 V新SG9 - 拓扑门topman8848.com
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1|低倍率 - MG Network
-  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1|低倍率 - MG Network
-  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡2|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡2|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
-  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
-  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -141,182 +88,116 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 V港HK7 - 拓扑门topman8848.com
-  - 🇭🇰 V港HK12[手机流量可用]ipv6 - 拓扑门topman8848.com
-  - 🇭🇰 香港2 - 云通
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
+  use: &id002
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 V这里是新平台 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW10 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW11[ipv6] - 拓扑门topman8848.com
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
+  use: &id003
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 V这里是新平台 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW10 - 拓扑门topman8848.com
-  - 🇹🇼 V台TW11[ipv6] - 拓扑门topman8848.com
-  - 🇨🇳 中国联通节点1 - 新云游
-  - 🇭🇰 V港HK7 - 拓扑门topman8848.com
-  - 🇭🇰 V港HK12[手机流量可用]ipv6 - 拓扑门topman8848.com
-  - 🇭🇰 香港2 - 云通
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
-  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
+  use: &id004
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 V新SG9 - 拓扑门topman8848.com
-  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡2|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
-  - 🇸🇬 [vip①]新加坡2|低倍率 - MG Network
+  use: &id005
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 V日JP8【V节点默认2倍消耗流量】 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP14 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP15 - 拓扑门topman8848.com
-  - 🇯🇵 V日JP19|10x - 拓扑门topman8848.com
-  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
-  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
+  use: &id006
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国高速节点1 - 新云游
-  - 🇺🇸 V美US13[ipv6] - 拓扑门topman8848.com
-  - 🇺🇸 V美US16 - 拓扑门topman8848.com
-  - 🇺🇸 V美US17|2x - 拓扑门topman8848.com
-  - 🇺🇸 V美US18|2x - 拓扑门topman8848.com
-  - 🇺🇸 US01-06 美国 AI 流媒体 - 8号技师
-  - 🇺🇸 US02-03 测试 - 8号技师
-  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
-  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
+  use: &id007
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 0523地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com
-  - ℹ️ 只有V节点的要换官网软件 - 拓扑门topman8848.com
-  - ℹ️ V小火箭要升级版本 - 拓扑门topman8848.com
-  - ℹ️ V最新地址【jooy.cc】 - 拓扑门topman8848.com
-  - ℹ️ V地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com
-  - 🇰🇷 V韩KR【新软件有L2节点】 - 拓扑门topman8848.com
-  - ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版
-  - ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版
-  - ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版
-  - 也可退出后重新登录 - 蜂鸟畅享版
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1|低倍率 - MG Network
-  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1|低倍率 - MG Network
-  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
+  use: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  proxies: *id003
+  use: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
+  use: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  use: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  use: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
-proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: e360fd80-3d9e-4e62-9a0b-a695d1c6db6f, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: e360fd80-3d9e-4e62-9a0b-a695d1c6db6f, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: e360fd80-3d9e-4e62-9a0b-a695d1c6db6f, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: e360fd80-3d9e-4e62-9a0b-a695d1c6db6f, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: e360fd80-3d9e-4e62-9a0b-a695d1c6db6f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 0523地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com, server: 87.120.204.71, port: 42201, type: trojan, password: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, sni: osxapps.itunes.apple.com, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 只有V节点的要换官网软件 - 拓扑门topman8848.com, server: 87.120.204.71, port: 19999, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ V小火箭要升级版本 - 拓扑门topman8848.com, server: 87.120.204.182, port: 42102, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ V最新地址【jooy.cc】 - 拓扑门topman8848.com, server: v3.toppp.cc, port: 42103, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ V地址公告fa邮件topman8848@gmail.com - 拓扑门topman8848.com, server: 104.234.0.252, port: 42104, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 V这里是新平台 - 拓扑门topman8848.com, server: 5.102.124.129, port: 42105, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 V韩KR【新软件有L2节点】 - 拓扑门topman8848.com, server: v6.toppp.cc, port: 42106, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 V港HK7 - 拓扑门topman8848.com, server: v7.toppp.cc, port: 42107, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP8【V节点默认2倍消耗流量】 - 拓扑门topman8848.com, server: v8.toppp.cc, port: 42108, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 V新SG9 - 拓扑门topman8848.com, server: v9.toppp.cc, port: 42109, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 V台TW10 - 拓扑门topman8848.com, server: v10.toppp.cc, port: 42110, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇹🇼 V台TW11[ipv6] - 拓扑门topman8848.com', server: v11.toppp.cc, port: 42111, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 V港HK12[手机流量可用]ipv6 - 拓扑门topman8848.com', server: v12.toppp.cc, port: 42112, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 V美US13[ipv6] - 拓扑门topman8848.com', server: v12.toppp.cc, port: 42113, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP14 - 拓扑门topman8848.com, server: vm3.doooo.top, port: 42114, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP15 - 拓扑门topman8848.com, server: vm3.doooo.top, port: 42115, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US16 - 拓扑门topman8848.com, server: vm3.doooo.top, port: 42116, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US17|2x - 拓扑门topman8848.com, server: vm3.doooo.top, port: 42117, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 V美US18|2x - 拓扑门topman8848.com, server: v18.toppp.cc, port: 42118, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 V日JP19|10x - 拓扑门topman8848.com, server: V19.doooo.top, port: 42119, type: vmess, uuid: 3c88b47f-e5c3-4e3b-9713-7c32d4a0abad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 官网www.work-fengniao.com - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后IOS请刷新一下订阅 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: ℹ️ 购买套餐后Android请清除订阅缓存 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-- {name: 也可退出后重新登录 - 蜂鸟畅享版, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc-ba7f, udp: true}
-- {name: 🇺🇸 US01-06 美国 AI 流媒体 - 8号技师, server: cdn.dannelblog.na.am, port: 33521, type: trojan, password: 01ae0ba9-dad9-483e-bda1-062f471d82e8, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 US02-03 测试 - 8号技师, server: bb.bing.na.am, port: 35784, type: trojan, password: 01ae0ba9-dad9-483e-bda1-062f471d82e8, sni: cn-hnzz-cm-01-01.bilivideo.com, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港2 - 云通, server: hk2.yuntong.click, port: 30016, type: ssr, cipher: chacha20-ietf, password: 4cb43cfa2f2d21b5bdb33879145e28bb, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 1661:c3b9e00c-fa50-4b3c-9e52-0be16a86df83, obfs-param: sajhsahj.microsoft.com, udp: true}
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 712f08b6-d430-3cca-a952-da5a4e5c9be5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [vip①]新加坡1|低倍率 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [vip①]新加坡2|低倍率 - MG Network', server: 13.mamamajd.site, port: 23613, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本1|低倍率 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本2|低倍率 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本3|低倍率 - MG Network', server: 18.mamamajd.site, port: 23618, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇬🇧 [vip①]英国1|低倍率 - MG Network', server: 5.mamamajd.site, port: 23605, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇰🇷 [vip①]韩国1|低倍率 - MG Network', server: 14.mamamajd.site, port: 23614, type: vmess, uuid: dfbf9e9c-df97-371a-9e59-0e3afd1210cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/HK.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/TW.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/SG.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/JP.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/US.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/luochen1975/jichangnodes/main/trials_providers/https___booc.cc/Other.yaml
+    interval: 180
+    path: trials_providers/https___booc.cc/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
