@@ -3,7 +3,7 @@ name: jichang_list
 on:
   workflow_dispatch: # 允许手动触发
   schedule:
-    - cron: '0 3 * * *' # 每天凌晨3点 (UTC) 运行
+  #   - cron: '0 3 * * *' # 每天凌晨3点 (UTC) 运行
 
 jobs:
   update-trial-cfg:
