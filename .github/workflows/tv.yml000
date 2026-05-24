@@ -3,7 +3,7 @@ name: tv
 on:
   workflow_dispatch: # 手动触发
   schedule:
-    - cron: '0 */8 * * *' # 每8小时运行一次
+  #   - cron: '0 */8 * * *' # 每8小时运行一次
 
 jobs:
   build:
