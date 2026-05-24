@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # 允许手动运行
   # 你可以在这里添加其他触发条件，例如定时运行等
   schedule:
-    - cron: '0 */5 * * *'
+  #  - cron: '0 */5 * * *'
 jobs:
   run-clashforge:
     runs-on: ubuntu-latest # 可以根据需要选择其他操作系统
