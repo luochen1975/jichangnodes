@@ -3,7 +3,7 @@ name: IPTV Channel Aggregator # 工作流的名称，在 GitHub Actions 页面�
 on:
   workflow_dispatch: # 允许在 GitHub Actions 界面手动触发此工作流
   schedule:
-    - cron: '0 */4 * * *' # 定时任务：每小时的第0分钟运行（即每小时运行一次）。
+   # - cron: '0 */4 * * *' # 定时任务：每小时的第0分钟运行（即每小时运行一次）。
                         # 你可以根据需要调整这个 cron 表达式。
                         # 例如：'0 0 * * *' 每天午夜运行一次。
                         # cron 表达式的格式：分钟 小时 日 月 星期 (都用UTC时间)
