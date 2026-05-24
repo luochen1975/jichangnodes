@@ -3,7 +3,7 @@ name: Collect Subscribes
 on:
   workflow_dispatch: # 允许手动触发工作流
   schedule:
-    - cron: '0 1 * * *' # 每天 UTC 时间 1 点运行 (北京时间 9 点)
+  #  - cron: '0 1 * * *' # 每天 UTC 时间 1 点运行 (北京时间 9 点)
 
 jobs:
   collect:
